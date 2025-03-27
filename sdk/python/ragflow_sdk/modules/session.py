@@ -41,6 +41,7 @@ class Session(Base):
 
         if stream:
             for line in res.iter_lines():
+                print(line)
                 line = line.decode("utf-8")
                 if line.startswith("{"):
                     json_data = json.loads(line)

@@ -3,7 +3,7 @@
   "author": "bill",
   "scripts": {
     "build": "umi build",
-    "dev": "cross-env UMI_DEV_SERVER_COMPRESS=none umi dev",
+    "dev": "cross-env UMI_DEV_SERVER_COMPRESS=gzip",
     "postinstall": "umi setup",
     "lint": "umi lint --eslint-only",
     "prepare": "cd .. && husky web/.husky",

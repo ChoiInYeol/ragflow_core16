@@ -2,12 +2,122 @@ import os
 from ragflow_sdk import RAGFlow
 from ragflow_sdk.modules.chat import Chat
 from datetime import datetime
-from typing import Dict, List
+from typing import Dict, List, Union
 import pandas as pd
 from pydantic import BaseModel, Field
 import json
 
-# Pydantic 모델 정의 (기존과 동일)
+# Pydantic 모델 정의
+class ReportAnalysis(BaseModel):
+    """애널리스트 보고서 분석 결과를 나타내는 모델"""
+    investment_point: Dict[str, Dict[str, str]] = Field(
+        description="투자 포인트와 그 근거를 포함하는 섹션입니다. 보고서의 핵심 주장을 인용하고, 이를 뒷받침하는 구체적인 데이터와 분석을 포함합니다.",
+        example={
+            "key_points": {
+                "0": "\"신규 LNG선 수주 물량 확대와 해양플랜트 시장 회복으로 2025년 실적 개선 기대\"",
+                "1": "\"중동 지역 신규 프로젝트 진출로 수주 다각화 달성\"",
+                "2": "\"친환경 선박 기술력 강화로 경쟁력 확보\""
+            },
+            "reasonings": {
+                "0": "\"2024년 4분기 LNG선 수주 2.5조원 달성, 2025년 3.2조원 예상\"",
+                "1": "\"사우디아라비아 신규 플랜트 프로젝트 1.8조원 수주 확정\"",
+                "2": "\"메탄가 연료 추진 선박 기술 개발 완료, 2025년 상용화 예정\""
+            }
+        }
+    )
+    
+    analysis: Dict[str, Dict[str, Dict[str, str]]] = Field(
+        description="정량적/정성적 분석 결과를 포함하는 섹션입니다. 보고서의 구체적인 내용을 인용하고, 각 카테고리별로 사실과 의견을 구분하여 정리합니다.",
+        example={
+            "figure": {
+                "fact": {
+                    "0": "\"2024년 영업이익 2,822억원 기록, 전년 대비 15% 증가\"",
+                    "1": "\"영업이익률 15.2% 달성으로 업계 평균 대비 3.5%p 상회\"",
+                    "2": "\"연구개발비 1,200억원 투자, 전년 대비 25% 증가\""
+                },
+                "opinion": {
+                    "0": "\"2025년 LNG선 수주 물량 확대와 해양플랜트 시장 회복으로 영업이익 3,500억원 달성 전망\"",
+                    "1": "\"신규 사업 진출과 원가 효율화로 영업이익률 18% 달성 가능\"",
+                    "2": "\"R&D 투자 확대로 친환경 선박 시장에서의 경쟁력 강화 기대\""
+                }
+            },
+            "nonfigure": {
+                "fact": {
+                    "0": "\"글로벌 LNG선 시장 점유율 35%로 1위 달성\"",
+                    "1": "\"중동 주요 에너지 기업과 5개사 파트너십 확보\"",
+                    "2": "\"친환경 선박 관련 특허 출원 100건 이상으로 기술력 입증\""
+                },
+                "opinion": {
+                    "0": "\"메탄가 연료 추진 선박 기술력으로 경쟁사 대비 2년 이상 앞서는 기술 우위 확보\"",
+                    "1": "\"중동 지역 신규 프로젝트 진출로 해양플랜트 시장에서의 입지 강화\"",
+                    "2": "\"친환경 선박 시장에서의 차별화된 경쟁력으로 시장 지배력 확대 기대\""
+                }
+            },
+            "material": {
+                "fact": {
+                    "0": "\"울산 신규 조선소 착공, 2025년 하반기 가동 예정\"",
+                    "1": "\"친환경 선박 제작을 위한 신규 장비 2,500억원 규모 구매 계약\"",
+                    "2": "\"신규 프로젝트 대응을 위한 엔지니어 500명 채용 계획\""
+                },
+                "opinion": {
+                    "0": "\"신규 조선소 가동으로 생산성 30% 향상 기대\"",
+                    "1": "\"최신 장비 도입으로 친환경 선박 생산 경쟁력 강화\"",
+                    "2": "\"인력 확충으로 신규 수주 물량 대응력 확보\""
+                }
+            },
+            "public": {
+                "fact": {
+                    "0": "\"주요 주주 지분율 변동 없이 경영권 안정성 유지\"",
+                    "1": "\"배당성향 30% 유지로 주주가치 제고 지속\"",
+                    "2": "\"기업지배구조 개선으로 외부평가 등급 상향 조정\""
+                },
+                "opinion": {
+                    "0": "\"주주 안정성 확보로 장기적 경영 계획 추진 가능\"",
+                    "1": "\"지속적인 배당 정책으로 기관투자자 관심도 증가\"",
+                    "2": "\"기업지배구조 개선으로 ESG 평가 상향 기대\""
+                }
+            }
+        }
+    )
+    
+    sector_indicators: Dict[str, str] = Field(
+        description="섹터별 주요 지표를 포함하는 섹션입니다. 보고서에서 언급된 구체적인 수치와 지표를 인용하여 정리합니다.",
+        example={
+            "market_cap": "\"시가총액 12.5조원으로 업계 1위\"",
+            "pe_ratio": "\"PER 15.2배로 업계 평균 대비 20% 할인\"",
+            "dividend_yield": "\"배당수익률 2.1%로 안정적 수익 제공\"",
+            "roe": "\"ROE 18.5%로 업계 최고 수준\"",
+            "debt_ratio": "\"부채비율 45.2%로 업계 평균 대비 10%p 낮은 수준\"",
+            "operating_margin": "\"영업이익률 15.2%로 업계 평균 대비 3.5%p 상회\"",
+            "revenue_growth": "\"매출 성장률 12.5%로 업계 평균 대비 5%p 높은 수준\"",
+            "market_share": "\"글로벌 LNG선 시장 점유율 35%로 1위\""
+        }
+    )
+    
+    events: Dict[str, Dict[str, Union[str, float]]] = Field(
+        description="예상 이벤트 목록을 포함하는 섹션입니다. 보고서에서 언급된 구체적인 이벤트와 그에 대한 설명을 인용하여 정리합니다.",
+        example={
+            "0": {
+                "category": "시장",
+                "type": "긍정적",
+                "description": "\"글로벌 LNG 수요 증가로 LNG선 발주 물량 확대\"",
+                "probability": 0.7
+            },
+            "1": {
+                "category": "기술",
+                "type": "긍정적",
+                "description": "\"메탄가 연료 추진 선박 상용화 성공\"",
+                "probability": 0.6
+            },
+            "2": {
+                "category": "정책",
+                "type": "부정적",
+                "description": "\"해운업계 탄소배출 규제 강화 가능성\"",
+                "probability": 0.3
+            }
+        }
+    )
+
 class KeyPoints(BaseModel):
     points: Dict[str, str] = Field(
         description="투자 포인트의 주요 내용. 구체적이고 간결하게 작성되며, 보고서에서 강조된 핵심 사항을 포함해야 함.",
@@ -45,12 +155,6 @@ class Event(BaseModel):
     type: str = Field(description="이벤트 유형", example="긍정적")
     description: str = Field(description="이벤트 설명", example="시장 상황 개선")
     probability: float = Field(description="발생 확률 (0~1)", ge=0.0, le=1.0, example=0.7)
-
-class ReportAnalysis(BaseModel):
-    investment_point: InvestmentPoint = Field(description="투자 포인트와 그 근거")
-    analysis: Analysis = Field(description="정량적/정성적 분석 결과")
-    sector_indicators: Dict[str, str] = Field(description="섹터별 주요 지표")
-    events: Dict[str, Event] = Field(description="예상 이벤트 목록")
 
 class RagflowAnalyzer:
     def __init__(self, api_key: str, base_url: str = "http://localhost"):
@@ -108,16 +212,63 @@ class RagflowAnalyzer:
                     chunks.append(chunk.content)
         return chunks
 
+    def _generate_schema_prompt(self, schema: Dict) -> str:
+        """Pydantic 스키마를 기반으로 간단한 프롬프트를 생성합니다."""
+        prompt_parts = []
+        
+        def process_field(field: Dict, parent_name: str = "") -> None:
+            """필드를 처리하여 간단한 설명만 포함합니다."""
+            if "description" in field:
+                current_path = f"{parent_name} - {field.get('title', '')}" if parent_name and field.get('title') else parent_name
+                current_path = current_path.strip(" -")
+                if current_path:
+                    description = field['description']
+                    prompt_parts.append(f"- {current_path}: {description}")
+            
+            # 중첩된 속성 처리
+            if "properties" in field:
+                for prop_name, prop_value in field["properties"].items():
+                    new_parent = f"{parent_name} - {prop_value.get('title', prop_name)}" if parent_name else prop_value.get('title', prop_name)
+                    process_field(prop_value, new_parent)
+            
+            # 리스트 항목 처리
+            if "items" in field and "properties" in field["items"]:
+                items_parent = f"{parent_name} 항목" if parent_name else "항목"
+                prompt_parts.append(f"- {items_parent} 정보:")
+                for prop_name, prop_value in field["items"]["properties"].items():
+                    new_parent = f"{items_parent} - {prop_value.get('title', prop_name)}"
+                    process_field(prop_value, new_parent)
+        
+        # 스키마의 최상위 레벨부터 시작
+        if "properties" in schema:
+            for prop_name, prop_value in schema["properties"].items():
+                process_field(prop_value, prop_name)
+        
+        return "\n".join(prompt_parts)
+
     def _get_or_create_chat_assistant(self) -> "Chat":
         CHAT_NAME = f"Noodle Machine"
         if self.chat_assistant is None:
             try:
                 self.chat_assistant = self.rag_object.create_chat(
                     name=CHAT_NAME,
-                    dataset_ids=[self.paper_dataset.id]
+                    dataset_ids=[self.paper_dataset.id, self.definition_dataset.id]
                 )
+                
+                # Pydantic 스키마를 기반으로 프롬프트 생성
+                schema_prompt = self._generate_schema_prompt(self.schema)
+                print("=== 스키마 프롬프트 ===")
+                print(schema_prompt)
+                print("=====================")
+                
                 prompt_template = (
-                    "당신은 세계 최고의 금융 전문가이자 분석가입니다. 증권사의 애널리스트 보고서를 바탕으로, 복잡한 금융 데이터를 쉽게 이해할 수 있도록 정보를 추출하고 분석하세요.\n"
+                    "당신은 세계 최고의 금융 전문가이자 분석가입니다. 증권사의 애널리스트 보고서를 분석하여 투자자들이 이해하기 쉽게 정보를 추출하고 정리하세요.\n\n"
+                    "분석 시 다음 사항을 참고하세요:\n"
+                    "1. 보고서의 핵심 내용은 따옴표로 인용하세요.\n"
+                    "2. 수치 데이터는 정확하게 인용하세요.\n"
+                    "3. 애널리스트의 의견과 예측도 인용하세요.\n\n"
+                    "분석할 때 다음 스키마 정보를 참고하세요:\n\n"
+                    f"{schema_prompt}\n\n"
                     "문서 정보:\n"
                     "- 문서명: {filename}\n"
                     "- 회사: {company}\n"
@@ -125,22 +276,21 @@ class RagflowAnalyzer:
                     "- 작성일: {date}\n"
                     "분석할 문서 내용:\n"
                     "{content}\n\n"
-                    "반드시 보고서에 명시된 내용만 활용하며, 새로운 정보를 추가하지 마세요.\n"
-                    "출력은 번호와 내용만 포함하며, 추가 설명은 넣지 마세요."
+                    "반드시 보고서에 명시된 내용만 활용하며, 새로운 정보를 추가하지 마세요. 모든 구체적인 내용은 따옴표로 인용하세요."
                 )
                 chat_config = {
                     "llm": {
                         "model_name": "gpt-4o-mini",
-                        "temperature": 0.1,
-                        "top_p": 0.3,
-                        "presence_penalty": 0.2,
-                        "frequency_penalty": 0.7,
+                        "temperature": 0.25,
+                        "top_p": 0.45,
+                        "presence_penalty": 0.35,
+                        "frequency_penalty": 0.55,
                         "max_tokens": 2048
                     },
                     "prompt": {
-                        "similarity_threshold": 0.2,
-                        "keywords_similarity_weight": 0.7,
-                        "top_n": 8,
+                        "similarity_threshold": 0.35,
+                        "keywords_similarity_weight": 0.65,
+                        "top_n": 11,
                         "show_quote": True,
                         "variables": [
                             {"key": "company", "optional": False},
@@ -238,7 +388,7 @@ class RagflowAnalyzer:
         doc_info = self.parse_filename(doc_name)
         print(f"=== 문서 정보 ===")
         print(f"파일명: {doc_name}")
-        print(f"회사명: {doc_name}")
+        print(f"회사명: {doc_info['company']}")
         print(f"작성기관: {doc_info['institution']}")
         print(f"작성일: {doc_info['date']}")
         
@@ -251,7 +401,7 @@ class RagflowAnalyzer:
         print(f"=== 문서 청크 수: {len(chunks)} ===")
         
         assistant = self._get_or_create_chat_assistant()
-        session = assistant.create_session(f"{doc_info['date']}-{doc_name}")
+        session = assistant.create_session(f"{doc_info['date']}-{doc_info['company']}")
         
         try:
             print("=== 챗봇 응답 처리 시작 ===")
