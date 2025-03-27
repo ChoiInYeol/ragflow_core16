@@ -12,14 +12,13 @@
         "keywords_similarity_weight": 0.7,
         "top_n": 8,
         "show_quote": true,
+        "prompt": "당신은 금융 보고서 분석 전문가입니다. 다음 보고서를 분석하여 주요 내용을 정리해주세요.\n\n문서 정보:\n문서명: {filename}\n회사: {company}\n작성기관: {institution}\n작성일: {date}\n\n분석할 문서 내용:\n{content}\n\n응답 형식:\n- 모든 필드는 필수입니다\n- 숫자는 문자열이 아닌 숫자로 입력하세요\n- probability는 0에서 1 사이의 숫자여야 합니다\n- 모든 키는 문자열이어야 합니다\n- 빈 값은 허용되지 않습니다\n- 이벤트 카테고리는 시장/산업/기업/정책/기타 중 하나여야 합니다\n- 이벤트 유형은 긍정적/부정적/중립적 중 하나여야 합니다\n- 이벤트 설명은 최소 5자 이상이어야 합니다",
         "variables": [
             {"key": "company", "optional": false},
             {"key": "institution", "optional": false},
             {"key": "date", "optional": false},
             {"key": "filename", "optional": false},
-            {"key": "content", "optional": false},
-            {"key": "template", "optional": false}
-        ],
-        "template_file": "prompt_template.txt"
+            {"key": "content", "optional": false}
+        ]
     }
 } 

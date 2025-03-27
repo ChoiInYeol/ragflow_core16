@@ -13,11 +13,17 @@ from pydantic import BaseModel, Field
 
 class KeyPoints(BaseModel):
     """주요 포인트 모델"""
-    points: Dict[str, str] = Field(description="주요 포인트 목록")
+    points: Dict[str, str] = Field(
+        description="주요 포인트 목록",
+        example={"0": "주요 포인트 1", "1": "주요 포인트 2"}
+    )
 
 class Reasonings(BaseModel):
     """근거 모델"""
-    reasons: Dict[str, str] = Field(description="근거 목록")
+    reasons: Dict[str, str] = Field(
+        description="근거 목록",
+        example={"0": "근거 1", "1": "근거 2"}
+    )
 
 class InvestmentPoint(BaseModel):
     """투자 포인트 모델"""
@@ -26,29 +32,81 @@ class InvestmentPoint(BaseModel):
 
 class AnalysisCategory(BaseModel):
     """분석 카테고리 모델"""
-    fact: Dict[str, str] = Field(description="사실 정보")
-    opinion: Dict[str, str] = Field(description="의견 정보")
+    fact: Dict[str, str] = Field(
+        description="사실 정보",
+        example={"0": "사실 1", "1": "사실 2"}
+    )
+    opinion: Dict[str, str] = Field(
+        description="의견 정보",
+        example={"0": "의견 1", "1": "의견 2"}
+    )
 
 class Analysis(BaseModel):
     """분석 모델"""
-    figure: AnalysisCategory = Field(description="수치 분석")
-    nonfigure: AnalysisCategory = Field(description="비수치 분석")
-    material: AnalysisCategory = Field(description="재료 분석")
-    public: AnalysisCategory = Field(description="공개 정보 분석")
+    figure: AnalysisCategory = Field(
+        description="정량적 데이터 분석 (수치 기반 근거)\n"
+                   "- 구체적인 수치, 차트, 그래프, 통계 데이터 등\n"
+                   "- 매출, 영업이익, 성장률 등 정량적 지표\n"
+                   "- 재무제표 기반의 수치적 분석"
+    )
+    nonfigure: AnalysisCategory = Field(
+        description="정성적 정보 분석 (수치 없는 설명)\n"
+                   "- 회사의 시장 지배력, 브랜드 가치 등\n"
+                   "- 경영진의 리더십, 기업 문화 등\n"
+                   "- 산업 동향, 시장 환경 등 정성적 요인"
+    )
+    material: AnalysisCategory = Field(
+        description="중요 이벤트 또는 주요 영향 요인 분석\n"
+                   "- 대규모 계약 체결, 사업 구조 개편\n"
+                   "- 경영진 변화, 전략적 제휴\n"
+                   "- 기업 가치에 중대한 영향을 미치는 사항"
+    )
+    public: AnalysisCategory = Field(
+        description="공개 정보 분석\n"
+                   "- 공시된 정보, 미디어 보도 내용\n"
+                   "- 투자자들에게 이미 알려진 정보\n"
+                   "- 시장에서 공유되는 정보의 신뢰도"
+    )
 
 class Event(BaseModel):
     """이벤트 모델"""
-    category: str = Field(description="이벤트 카테고리")
-    type: str = Field(description="이벤트 유형")
-    description: str = Field(description="이벤트 설명")
-    probability: float = Field(description="발생 확률")
+    category: str = Field(description="이벤트 카테고리", example="시장")
+    type: str = Field(description="이벤트 유형", example="긍정적")
+    description: str = Field(description="이벤트 설명", example="시장 상황 개선")
+    probability: float = Field(description="발생 확률", ge=0.0, le=1.0, example=0.7)
 
 class ReportAnalysis(BaseModel):
     """보고서 분석 모델"""
     investment_point: InvestmentPoint = Field(description="투자 포인트")
     analysis: Analysis = Field(description="분석 결과")
-    sector_indicators: Dict[str, str] = Field(description="섹터 지표")
-    events: Dict[str, Event] = Field(description="이벤트 목록")
+    sector_indicators: Dict[str, str] = Field(
+        description="섹터 지표",
+        example={"0": "지표 1", "1": "지표 2"}
+    )
+    events: Dict[str, Event] = Field(
+        description="이벤트 목록",
+        example={"0": {"category": "시장", "type": "긍정적", "description": "시장 상황 개선", "probability": 0.7}}
+    )
+
+    class Config:
+        json_schema_extra = {
+            "example": {
+                "investment_point": {
+                    "key_points": {"points": {"0": "주요 포인트 1", "1": "주요 포인트 2"}},
+                    "reasonings": {"reasons": {"0": "근거 1", "1": "근거 2"}}
+                },
+                "analysis": {
+                    "figure": {"fact": {"0": "사실 1"}, "opinion": {"0": "의견 1"}},
+                    "nonfigure": {"fact": {"0": "사실 1"}, "opinion": {"0": "의견 1"}},
+                    "material": {"fact": {"0": "사실 1"}, "opinion": {"0": "의견 1"}},
+                    "public": {"fact": {"0": "사실 1"}, "opinion": {"0": "의견 1"}}
+                },
+                "sector_indicators": {"0": "지표 1", "1": "지표 2"},
+                "events": {
+                    "0": {"category": "시장", "type": "긍정적", "description": "시장 상황 개선", "probability": 0.7}
+                }
+            }
+        }
 
 class RagflowAnalyzer:
     """
@@ -62,7 +120,6 @@ class RagflowAnalyzer:
         paper_dataset: Paper 데이터셋
         sector_data (dict): 섹터 데이터
         event_data (dict): 이벤트 데이터
-        template_data (dict): JSON 템플릿 데이터
         chat_assistant: 챗봇 인스턴스 저장
         parser: JsonOutputParser instance for parsing responses
     """
@@ -82,9 +139,40 @@ class RagflowAnalyzer:
         self.paper_dataset = self.rag_object.get_dataset(name="Paper")
         self.sector_data = self._load_sector_data()
         self.event_data = self._load_event_data()
-        self.template_data = self._load_template()
         self.chat_assistant = None  # 챗봇 인스턴스 저장
-        self.parser = JsonOutputParser(pydantic_object=ReportAnalysis)
+        
+        # JsonOutputParser 설정
+        self.parser = JsonOutputParser(
+            pydantic_object=ReportAnalysis,
+            schema_extra={
+                "example": ReportAnalysis.Config.json_schema_extra["example"]
+            }
+        )
+        
+        # 포맷 지시사항 커스터마이징 - 문자열 상수 사용
+        self.format_instructions = (
+            "다음 형식에 맞춰 JSON으로 응답해주세요. 응답은 다음 구조를 가져야 합니다:\n\n"
+            "investment_point: 객체\n"
+            "   key_points: 객체\n"
+            "       points: 객체 (키: 문자열 숫자, 값: 문자열)\n"
+            "reasonings: 객체\n"
+            "   reasons: 객체 (키: 문자열 숫자, 값: 문자열)\n"
+            "analysis: 객체\n"
+            "   figure: 객체\n"
+            "       fact: 객체 (키: 문자열 숫자, 값: 문자열)\n"
+            "       opinion: 객체 (키: 문자열 숫자, 값: 문자열)\n"
+            "   nonfigure: 객체 (figure와 동일한 구조)\n"
+            "   material: 객체 (figure와 동일한 구조)\n"
+            "   public: 객체 (figure와 동일한 구조)\n"
+            "sector_indicators: 객체 (키: 문자열 숫자, 값: 문자열)\n"
+            "events: 객체\n"
+            "  키: 문자열 숫자\n"
+            "  값: 객체\n"
+            "      category: 문자열\n"
+            "      type: 문자열\n"
+            "      description: 문자열\n"
+            "      probability: 숫자 (0-1 사이)"
+        )
         
     def _load_sector_data(self) -> dict:
         """섹터 데이터를 로드합니다."""
@@ -98,14 +186,6 @@ class RagflowAnalyzer:
         """이벤트 데이터를 로드합니다."""
         for doc in self.definition_dataset.list_documents():
             if doc.name == "event.json":
-                for chunk in doc.list_chunks():
-                    return json.loads(chunk.content)
-        return {}
-    
-    def _load_template(self) -> dict:
-        """JSON 템플릿을 로드합니다."""
-        for doc in self.definition_dataset.list_documents():
-            if doc.name == "template.json":
                 for chunk in doc.list_chunks():
                     return json.loads(chunk.content)
         return {}
@@ -206,16 +286,24 @@ class RagflowAnalyzer:
                         chat_config = json.load(f)
                     
                     # 프롬프트 템플릿 로드
-                    template_path = os.path.join(os.path.dirname(__file__), chat_config['prompt']['template_file'])
+                    template_file = chat_config['prompt'].get('template_file', 'prompt_template.txt')
+                    template_path = os.path.join(os.path.dirname(__file__), template_file)
+                    
                     try:
                         with open(template_path, 'r', encoding='utf-8') as f:
                             prompt_template = f.read()
                         
-                        # JsonOutputParser 포맷 지시사항 추가
-                        format_instructions = self.parser.get_format_instructions()
-                        prompt_template = prompt_template.replace("{template}", format_instructions)
+                        # 커스텀 포맷 지시사항 추가
+                        prompt_template = prompt_template.replace("{format_instructions}", self.format_instructions)
                         
+                        # template_file 제거하고 prompt 설정
+                        chat_config['prompt'].pop('template_file', None)
                         chat_config['prompt']['prompt'] = prompt_template
+                        
+                        print(f"=== 프롬프트 템플릿 로드 완료 ===")
+                        print(f"템플릿 파일: {template_file}")
+                        print(f"포맷 지시사항 추가됨")
+                        
                     except FileNotFoundError as e:
                         print("=== 파일을 찾을 수 없음 ===")
                         print(f"파일 경로: {str(e)}")
@@ -244,21 +332,9 @@ class RagflowAnalyzer:
                                 {"key": "institution", "optional": False},
                                 {"key": "date", "optional": False},
                                 {"key": "filename", "optional": False},
-                                {"key": "content", "optional": False},
-                                {"key": "template", "optional": False}
+                                {"key": "content", "optional": False}
                             ],
-                            "prompt": ("""
-                                        당신은 금융 보고서 분석 전문가입니다. 다음 보고서를 분석하여 주요 내용을 정리해주세요.
-                                        문서 정보: 문서명: {filename}, 회사: {company}, 작성기관: {institution}, 작성일: {date} 
-                                        분석할 문서 내용: {content} 
-                                        다음 JSON 스키마를 정확히 따라 응답해주세요: {template}
-                                        
-                                        주의사항:
-                                        1. 모든 필드가 포함되어야 하며, 빈 값이라도 해당 필드는 유지하세요.
-                                        2. JSON 형식을 정확히 지켜주세요.
-                                        3. 불필요한 설명이나 추가 텍스트를 포함하지 마세요.
-                                """
-                            )
+                            "prompt": prompt_template
                         }
                     }
                 
