@@ -1,0 +1,2 @@
+2025-03-27 17:37:41,431 - root - INFO - PDF 파일 업로드 시작
+2025-03-27 17:37:41,431 - root - ERROR - 프로그램 실행 중 오류 발생: paper 디렉토리를 찾을 수 없습니다: /home/core16/codespace/ragflow_core16/data/paper

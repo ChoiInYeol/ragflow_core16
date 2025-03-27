@@ -1,0 +1,1497 @@
+2025-03-27 18:16:57,811 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:16:57,811 - ragflow_analyzer - INFO - 파일명: 기대할_것이_많다_HD현대중공업_미래에셋증권_표지_25.02.18.pdf
+2025-03-27 18:16:57,811 - ragflow_analyzer - INFO - 회사명: HD현대중공업
+2025-03-27 18:16:57,811 - ragflow_analyzer - INFO - 작성기관: 미래에셋증권
+2025-03-27 18:16:57,811 - ragflow_analyzer - INFO - 작성일: 2025-02-18
+2025-03-27 18:16:57,854 - ragflow_analyzer - INFO - === 문서 청크 수: 9 ===
+2025-03-27 18:16:57,876 - ragflow_analyzer - INFO - 기존 챗봇 사용: Noodle Machine
+2025-03-27 18:16:57,886 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:17:21,161 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:17:21,162 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:17:21,162 - ragflow_analyzer - INFO - 1. investment_point - key_points: "투자의견 ‘매수’ 유지, 목표주가 470,000원으로 22.7% 상향"
+2. investment_point - reasonings: "상선부문 턴어라운드 및 엔진/특수선의 견고한 수익성 기반으로 향후 이익에 대한 신뢰성이 높아졌기 때문"
+3. analysis - figure - fact: "2025년 특수선 수주 목표치는 16억불(vs. 24년 목표치 9.9억불, +58.6%)"
+4. analysis - figure - opinion: "2025년 상선 수주 목표 초과 달성 기대"
+5. analysis - nonfigure - fact: "미해군 사업은 당장 2월부터 MSC 7함대 MRO 입찰에 참여할 예정"
+6. analysis - nonfigure - opinion: "향후 수주 가능성이 높아질 것으로 기대됨"
+7. analysis - material - fact: "2025년 영업이익(십억원) 예상치는 705이며, Consensus 영업이익(십억원)은 675임"
+8. analysis - material - opinion: "영업이익률은 기존의 10% 초중반에서 견조한 수익성을 유지할 전망임"
+9. analysis - public - fact: "현재 주가는 334,500원이며 상승여력은 40.5%"
+10. analysis - public - opinion: "목표주가 상승으로 인해 투자자들의 관심이 증가할 것으로 예상됨"
+11. sector_indicators: "2024F EPS 성장률은 2,417.7%, P/E는 41.1배로 예상됨"
+
+12. events - category: 자본/재무
+13. events - type: 발표
+14. events - timestamp: 발생 시점 (2025-02-18)
+15. events - description: "목표주가를 기존의 383,000원에서 470,000원으로 상향 조정함."
+16. events - source_quote: "투자의견 ‘매수’ 유지, 목표주가470,000원으로22.7% 상향한다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: 매출 증가 및 영업이익 개선
+22. events - derived_effects - indirect: 시장 점유율 확대 및 브랜드 가치 상승
+23. events - derived_effects - risks: 미해군 사업 관련 불확실성
+24. events - related_events - preceding: 이전 분기 실적 발표
+25. events - related_events – subsequent : 후속 계약 체결 가능성 (발생 확률 중간)
+26.events – related_events – related_impact : 조선 산업 전반에 긍정적인 영향
+2025-03-27 18:17:21,162 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt/기대할_것이_많다_HD현대중공업_미래에셋증권_표지_25.02.18.pdf_report.txt'이 저장되었습니다.
+2025-03-27 18:17:21,162 - root - INFO - === 결과 저장 완료 ===
+2025-03-27 18:17:21,162 - root - ERROR - Excel 파일 저장 중 오류 발생: '0'
+2025-03-27 18:17:21,162 - ragflow_analyzer - ERROR - === 파싱 오류 ===
+2025-03-27 18:17:21,162 - ragflow_analyzer - ERROR - 오류 메시지: '0'
+2025-03-27 18:17:21,162 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/기대할_것이_많다_HD현대중공업_미래에셋증권_표지_25.02.18_report.txt/기대할_것이_많다_HD현대중공업_미래에셋증권_표지_25.02.18.pdf_report.txt'이 저장되었습니다.
+2025-03-27 18:17:21,162 - root - INFO - === 결과 저장 완료 ===
+2025-03-27 18:17:21,163 - root - ERROR - Excel 파일 저장 중 오류 발생: 'analysis'
+2025-03-27 18:17:21,163 - root - ERROR - 보고서 분석 중 오류 발생: 기대할_것이_많다_HD현대중공업_미래에셋증권_표지_25.02.18.pdf - 'analysis'
+2025-03-27 18:21:12,105 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:21:12,106 - ragflow_analyzer - INFO - 파일명: 기대할_것이_많다_HD현대중공업_미래에셋증권_표지_25.02.18.pdf
+2025-03-27 18:21:12,106 - ragflow_analyzer - INFO - 회사명: HD현대중공업
+2025-03-27 18:21:12,106 - ragflow_analyzer - INFO - 작성기관: 미래에셋증권
+2025-03-27 18:21:12,106 - ragflow_analyzer - INFO - 작성일: 2025-02-18
+2025-03-27 18:21:12,148 - ragflow_analyzer - INFO - === 문서 청크 수: 9 ===
+2025-03-27 18:21:12,169 - ragflow_analyzer - INFO - 기존 챗봇 사용: Noodle Machine
+2025-03-27 18:21:12,180 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:21:21,978 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:21:21,978 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:21:21,978 - ragflow_analyzer - INFO - 1. investment_point - key_points: "투자의견 '매수' 유지, 목표주가 470,000원으로 22.7% 상향"
+2. investment_point - reasonings: "목표주가는 기존 383,000원에서 470,000원으로 상향되며 상승여력은 40.5%에 해당"
+3. analysis - figure - fact: "2025년 영업이익 예상치 705억원"
+4. analysis - figure - opinion: "2025년 EPS 평균 18,130원에 Target P/E 26배 적용 시 목표주가 산출"
+5. analysis - nonfigure - fact: "특수선사업부의 매출 목표치는 30F에 2.5조원, 35F에 3.5조원"
+6. analysis - nonfigure - opinion: "미해군 사업 참여로 수익성 개선 기대"
+7. analysis - material - fact: "2025년 특수선 수주 목표치는 16억불로 전년 대비 +58.6%"
+8. analysis - material - opinion: "미해군 MRO 입찰 참여로 향후 수익성 증가 가능성 높음"
+9. analysis - public - fact: "현재 주가는 334,500원 (25/2/14 기준)"
+10. analysis - public - opinion: "상선부문 턴어라운드 및 엔진/특수선의 견고한 수익성 기반으로 이익 신뢰도 증가"
+11. sector_indicators: "2024년 P/E는 41.1배, KOSPI는 2,591.05"
+12. events - category: 계약
+13. events - type: 계획
+14. events - timestamp: 예상 시점 (2025년)
+15. events - description: "미해군 MRO 입찰 참여 예정 및 신규 함정 계약 가능성 증대"
+16. events - source_quote: "미해군사업은 당장 2월부터 MSC 7함대 MRO 입찰에 참여할 예정이다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: 직접적 효과는 매출 증가 예상
+22. events - derived_effects - indirect: 간접적 효과는 경쟁력 강화와 브랜드 가치 상승
+23. events - derived_effects - risks: 외부 환경 변화에 따른 수주 불확실성
+24. events - related_events - preceding: 과거 미해군 관련 사업 성과
+25. events - related_events – subsequent : 추가적인 해외 수주 가능성 (발생 확률 중간)
+26.events – related_events – related_impact : 조선업계 전체에 긍정적 영향
+2025-03-27 18:21:21,978 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:21:22,073 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (26, 3)
+2025-03-27 18:21:22,073 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:21:22,073 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:21:22,077 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (26, 3)
+2025-03-27 18:21:22,078 - root - INFO - 보고서 분석 완료: 기대할_것이_많다_HD현대중공업_미래에셋증권_표지_25.02.18.pdf
+2025-03-27 18:28:59,681 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:28:59,682 - ragflow_analyzer - INFO - 파일명: 기대할_것이_많다_HD현대중공업_미래에셋증권_표지_25.02.18.pdf
+2025-03-27 18:28:59,682 - ragflow_analyzer - INFO - 회사명: HD현대중공업
+2025-03-27 18:28:59,682 - ragflow_analyzer - INFO - 작성기관: 미래에셋증권
+2025-03-27 18:28:59,682 - ragflow_analyzer - INFO - 작성일: 2025-02-18
+2025-03-27 18:28:59,724 - ragflow_analyzer - INFO - === 문서 청크 수: 9 ===
+2025-03-27 18:28:59,746 - ragflow_analyzer - INFO - 기존 챗봇 사용: Noodle Machine
+2025-03-27 18:28:59,756 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:29:09,209 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:29:09,209 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:29:09,209 - ragflow_analyzer - INFO - 1. investment_point - key_points: "투자의견 '매수' 유지, 목표주가 470,000원으로 22.7% 상향"
+2. investment_point - reasonings: "목표주가 산출 멀티플을 기존 P/B에서 P/E로 변경했으며, EPS 평균 18,130원에 Target P/E 26배를 적용하여 산출"
+3. analysis - figure - fact: "2025년 영업이익(십억원) 예상치: 1,167"
+4. analysis - figure - opinion: "2025년 상선 수주 목표 초과 달성 기대"
+5. analysis - nonfigure - fact: "특수선 사업부의 매출 목표치는 30F 2.5조원/35F 3.5조원"
+6. analysis - nonfigure - opinion: "미해군 MRO/신조 추정치는 아직 실적에 반영되지 않았으나 향후 긍정적인 영향을 미칠 것으로 예상"
+7. analysis - material - fact: "2025년 특수선 수주 목표치는 16억불(vs. 24년 목표치 9.9억불, +58.6%)"
+8. analysis - material - opinion: "미해군사업은 향후 수주 가능성이 높아질 것으로 기대됨"
+9. analysis - public - fact: "현재 주가(25/2/14): 334,500원"
+10. analysis - public - opinion: "상승여력은 약 40.5%로 전망됨"
+11. sector_indicators: "KOSPI 지수는 2,591.05이며, HD현대중공업 시가총액은 약 29,695억원"
+
+12. events - category: 계약
+13. events - type: 계획
+14. events - timestamp: 예상 시점 (2025년)
+15. events - description: "미해군 MSC 7함대 MRO 입찰 참여 예정 및 오버홀 계약 기준 연간 4~5척 예상"
+16. events - source_quote: "미해군사업은 당장 2월부터 MSC 7함대 MRO 입찰에 참여할 예정이다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: 매출 증가 예상
+22. events - derived_effects - indirect: 경쟁력 강화 및 시장 점유율 확대 가능성
+23. events - derived_effects - risks: 미해군 사업의 불확실성 및 정책 변화 리스크
+24. events - related_events - preceding: 과거 미해군 관련 계약 체결 사례
+25. events - related_events – subsequent : 차세대 구축함 KDDX 사업 (발생 확률 높음)
+26.events – related_events – related_impact : 조선업계 전반에 긍정적 영향
+2025-03-27 18:29:09,210 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:29:09,264 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:29:09,264 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:29:09,264 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:29:09,270 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:29:09,270 - root - INFO - 보고서 분석 완료: 기대할_것이_많다_HD현대중공업_미래에셋증권_표지_25.02.18.pdf
+2025-03-27 18:32:13,488 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:32:13,489 - ragflow_analyzer - INFO - 파일명: 기대할_것이_많다_HD현대중공업_미래에셋증권_표지_25.02.18.pdf
+2025-03-27 18:32:13,489 - ragflow_analyzer - INFO - 회사명: HD현대중공업
+2025-03-27 18:32:13,489 - ragflow_analyzer - INFO - 작성기관: 미래에셋증권
+2025-03-27 18:32:13,489 - ragflow_analyzer - INFO - 작성일: 2025-02-18
+2025-03-27 18:32:13,537 - ragflow_analyzer - INFO - === 문서 청크 수: 9 ===
+2025-03-27 18:32:13,558 - ragflow_analyzer - INFO - 기존 챗봇 사용: Noodle Machine
+2025-03-27 18:32:13,570 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:32:23,196 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:32:23,196 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:32:23,196 - ragflow_analyzer - INFO - 1. investment_point - key_points: "투자의견 '매수' 유지, 목표주가 470,000원으로 22.7% 상향"
+2. investment_point - reasonings: "목표주가는 기존 383,000원에서 470,000원으로 상향되며 상승여력은 40.5%에 해당"
+3. analysis - figure - fact: "2025년 특수선 수주 목표치는 16억불로, 이는 24년 목표치인 9.9억불 대비 +58.6% 증가"
+4. analysis - figure - opinion: "2025년 상선 수주 목표 초과 달성 기대"
+5. analysis - nonfigure - fact: "특수선 사업부는 실적의 주축이 될 것으로 예상됨"
+6. analysis - nonfigure - opinion: "미해군 MRO/신조 추정치는 아직 실적에 반영되지 않았으나 향후 긍정적인 영향을 미칠 것으로 판단됨"
+7. analysis - material - fact: "2025년 영업이익은 1,167억원으로 예상됨"
+8. analysis - material - opinion: "미해군사업 참여로 인해 향후 수익성이 높아질 것으로 기대됨"
+9. analysis - public - fact: "현재 주가는 334,500원 (25/2/14 기준)"
+10. analysis - public - opinion: "목표주가 도달 시 주가는 상승할 가능성이 높음"
+11. sector_indicators: "2024F 영업이익(십억원): 705 / Consensus 영업이익(십억원): 675 / EPS 성장률(24F,%): 2,417.7%"
+12. events - category: 계약
+13. events - type: 계획
+14. events - timestamp: 예상 시점은 명시되어 있지 않음
+15. events - description: "미해군사업에 대한 입찰 참여 예정 및 추가 수주 가능성 증가"
+16. events - source_quote: "미해군사업은 당장 2월부터 MSC 7함대 MRO 입찰에 참여할 예정이다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: 매출 증가 예상
+22. events - derived_effects - indirect: 경쟁력 강화 및 시장 점유율 확대 가능성
+23. events - derived_effects - risks: 미해군 사업 관련 불확실성 및 경쟁 심화 위험 요소 존재
+24. events - related_events - preceding: 과거 조선업계의 성과와 관련된 이벤트들 
+25. events - related_events – subsequent : 추가 수주 계약 체결 가능성 (발생 확률 중간)
+26.events – related_events – related_impact : 조선업계 전반에 긍정적인 영향 미칠 것으로 예상
+2025-03-27 18:32:23,197 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:32:23,248 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:32:23,248 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:32:23,248 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:32:23,253 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:32:23,253 - root - INFO - 보고서 분석 완료: 기대할_것이_많다_HD현대중공업_미래에셋증권_표지_25.02.18.pdf
+2025-03-27 18:42:09,029 - root - INFO - PDF 파일 업로드 시작
+2025-03-27 18:42:13,047 - root - INFO - PDF 파일 업로드 완료
+2025-03-27 18:49:05,874 - root - INFO - 총 26개의 보고서 분석 시작
+2025-03-27 18:49:05,874 - root - ERROR - 프로그램 실행 중 오류 발생: 'Document' object has no attribute 'display_name'
+2025-03-27 18:49:53,800 - root - INFO - 총 26개의 보고서 분석 시작
+2025-03-27 18:49:53,800 - root - INFO - 보고서 분석 중: 1/26 - 비우호적_사업환경_이어져_롯데웰푸드_IBK투자증권_표지_25.02.13.pdf
+2025-03-27 18:49:53,800 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:49:53,800 - ragflow_analyzer - INFO - 파일명: 비우호적_사업환경_이어져_롯데웰푸드_IBK투자증권_표지_25.02.13.pdf
+2025-03-27 18:49:53,800 - ragflow_analyzer - INFO - 회사명: 롯데웰푸드
+2025-03-27 18:49:53,800 - ragflow_analyzer - INFO - 작성기관: IBK투자증권
+2025-03-27 18:49:53,800 - ragflow_analyzer - INFO - 작성일: 2025-02-13
+2025-03-27 18:49:53,849 - ragflow_analyzer - INFO - === 문서 청크 수: 11 ===
+2025-03-27 18:49:53,872 - ragflow_analyzer - INFO - 기존 챗봇 사용: Noodle Machine
+2025-03-27 18:49:53,884 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:50:03,959 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:50:03,959 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:50:03,959 - ragflow_analyzer - INFO - 1. investment_point - key_points: "인도사업확대 긍정적이나, 비용상승 장기화 부담"
+2. investment_point - reasonings: "목표주가는 14만원으로 하향 조정되었으며, 현재가는 10만7500원으로 상승 여력은 30.2%."
+3. analysis - figure - fact: "현재가(2025.02.12): 107,500원, 목표주가: 140,000원"
+4. analysis - figure - opinion: "2025년 EPS는 11,526원으로 예상됨."
+5. analysis - nonfigure - fact: "내수 소비 둔화 및 원가 부담이 장기화되고 있음."
+6. analysis - nonfigure - opinion: "국내 매출과 영업이익은 감소세를 지속할 것으로 보임."
+7. analysis - material - fact: "작년 4분기 연결 매출액은 9,705억원(-0.9% yoy), 영업이익은 196억원 적자."
+8. analysis - material - opinion: "1분기 중 롯데인디아와 하브모어 합병이 완료될 전망이며, 이는 긍정적인 영향을 미칠 것으로 예상됨."
+9. analysis - public - fact: "롯데웰푸드의 외국인지분율은 13.4%이다."
+10. analysis - public - opinion: "외국인 투자 비중 증가가 향후 주가에 긍정적인 영향을 미칠 가능성이 있음."
+11. sector_indicators: "KOSPI (2/12): 2,548.39pt; 시가총액: 1,014십억원; 발행주식수: 9,435천주"
+12. events - category: M&A
+13. events - type: 계획
+14. events - timestamp: 예상 시점 (1분기 중)
+15. events - description: "롯데인디아와 하브모어 합병 예정"
+16. events - source_quote: "1분기 중 롯데인디아, 하브모어 합병이 완료될 전망이다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: 매출 증가 기대
+22. events - derived_effects - indirect: 시장 점유율 확대 가능성
+23. events - derived_effects - risks: 원가 상승 지속 가능성
+24. events - related_events - preceding: 인도 사업 확장 관련 투자 결정
+25. events - related_events – subsequent : 가격 인상 효과 분석 (발생 확률 중간)
+26.events – related_events – related_impact : 국내외 경쟁사에 대한 압박 증가
+2025-03-27 18:50:03,959 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:50:04,014 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:50:04,014 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:50:04,014 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:50:04,020 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:50:04,020 - root - INFO - 보고서 분석 완료: 비우호적_사업환경_이어져_롯데웰푸드_IBK투자증권_표지_25.02.13.pdf
+2025-03-27 18:50:04,020 - root - INFO - 보고서 분석 중: 2/26 - 수익성_회복_전략_본격화_롯데웰푸드_키움증권_표지_25.02.13.pdf
+2025-03-27 18:50:04,020 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:50:04,020 - ragflow_analyzer - INFO - 파일명: 수익성_회복_전략_본격화_롯데웰푸드_키움증권_표지_25.02.13.pdf
+2025-03-27 18:50:04,020 - ragflow_analyzer - INFO - 회사명: 롯데웰푸드
+2025-03-27 18:50:04,020 - ragflow_analyzer - INFO - 작성기관: 키움증권
+2025-03-27 18:50:04,020 - ragflow_analyzer - INFO - 작성일: 2025-02-13
+2025-03-27 18:50:04,064 - ragflow_analyzer - INFO - === 문서 청크 수: 8 ===
+2025-03-27 18:50:04,074 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:50:14,664 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:50:14,665 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:50:14,665 - ragflow_analyzer - INFO - 1. investment_point - key_points: "롯데웰푸드의 수익성 회복 전략 본격화"
+2. investment_point - reasonings: "올해 가격 인상과 비용 효율화를 통해 수익성 회복이 기대됨."
+3. analysis - figure - fact: "4Q24 연결기준 영업이익은 -196억원으로 시장 기대치를 하회함."
+4. analysis - figure - opinion: "2025년 영업이익은 180.9억원으로 예상됨."
+5. analysis - nonfigure - fact: "롯데웰푸드는 주력 제품 가격 인상과 비용 효율화에 집중할 계획임."
+6. analysis - nonfigure - opinion: "2분기부터 가격 인상 효과가 반영되면서 전사 수익성이 점차 회복될 것으로 전망됨."
+7. analysis - material - fact: "4Q24 영업이익 적자 전환, 통상임금 이슈와 원가 상승 부담으로 부진한 수익성을 시현함."
+8. analysis - material - opinion: "1분기까지는 수익성 부진이 지속될 가능성이 높음."
+9. analysis - public - fact: "목표주가는 153,000원으로 유지됨."
+10. analysis - public - opinion: "글로벌 성장 동력이 강화될 것으로 전망됨."
+11. sector_indicators: "2024년 매출액 4,044.3억원, 영업이익 157.1억원 예상."
+
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 2025년 2월
+15. events - description: "롯데웰푸드의 4Q24 실적 발표 및 향후 전략 설명"
+16. events - source_quote: "올해는 원재료 투입 단가 상승을 방어하기 위해 주력 제품 가격 인상과 비용 효율화에 주력할 계획이다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: 매출 증가 및 영업이익 개선 예상
+22. events - derived_effects - indirect: 시장 점유율 확대 및 브랜드 가치 상승 가능성
+23. events - derived_effects - risks: 원자재 가격 변동 위험 존재
+24. events - related_events – preceding : 이전 분기 실적 발표 
+25. events – related_events – subsequent : 가격 인상 후 실적 개선 (발생 확률 높음)
+26.events – related_events – related_impact : 경쟁사 대비 우위 확보 가능성
+2025-03-27 18:50:14,665 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:50:14,684 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:50:14,684 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:50:14,684 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:50:14,689 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:50:14,690 - root - INFO - 보고서 분석 완료: 수익성_회복_전략_본격화_롯데웰푸드_키움증권_표지_25.02.13.pdf
+2025-03-27 18:50:14,690 - root - INFO - 보고서 분석 중: 3/26 - 결국에는_담아야_할_종목_LIG넥스원_대신증권_표지_25.02.18.pdf
+2025-03-27 18:50:14,690 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:50:14,690 - ragflow_analyzer - INFO - 파일명: 결국에는_담아야_할_종목_LIG넥스원_대신증권_표지_25.02.18.pdf
+2025-03-27 18:50:14,690 - ragflow_analyzer - INFO - 회사명: LIG넥스원
+2025-03-27 18:50:14,690 - ragflow_analyzer - INFO - 작성기관: 대신증권
+2025-03-27 18:50:14,690 - ragflow_analyzer - INFO - 작성일: 2025-02-18
+2025-03-27 18:50:14,744 - ragflow_analyzer - INFO - === 문서 청크 수: 16 ===
+2025-03-27 18:50:14,754 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:50:23,774 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:50:23,774 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:50:23,774 - ragflow_analyzer - INFO - 1. investment_point - key_points: "매출액 상승 대비 연구개발비 증가로 다소 아쉬운 이익 성장"
+2. investment_point - reasonings: "2024년 연결 기준 영업이익 627억원(+69.9% yoy) 기록, 목표주가 330,000원 상향(+8.2%)"
+3. analysis - figure - fact: "4Q24 연결 기준 매출액 1.17조원(+71.8% yoy), 영업이익 627억원(+69.9% yoy)"
+4. analysis - figure - opinion: "2025년 예상 EPS는 15,043원으로 증가할 것으로 보임"
+5. analysis - nonfigure - fact: "수주 잔고는 20.1조원으로 약 6년치 이상의 잔고를 보유"
+6. analysis - nonfigure - opinion: "'26년 이익 성장 속도는 가속화될 예정"
+7. analysis - material - fact: "2025년 UAE 천궁-II 양산 시작"
+8. analysis - material - opinion: "매출 믹스 개선 기대에 따라 이익성장 초입 시점에 진입할 것으로 판단"
+9. analysis - public - fact: "현재 주가는 280,500원이며 목표주가는 330,000원으로 설정됨"
+10. analysis - public - opinion: "추가 상승 여력은 약 17.6%로 예상됨"
+11. sector_indicators: "KOSPI 지수는 2,610.42이며 LIG넥스원의 시가총액 비중은 0.29%"
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 2025-02-18
+15. events - description: "LIG넥스원이 연결 기준으로 매출과 영업이익을 발표함."
+16. events - source_quote: "@."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: "영업이익 증가 및 매출 상승 기대"
+22. events - derived_effects - indirect: "시장 점유율 및 경쟁력 강화 가능성"
+23. events - derived_effects - risks: "저수익성인 니무전기사업의 영향 지속 가능성"
+24. events - related_events - preceding: N/A
+25. events - related_events – subsequent : '25년 UAE 천궁-II 양산 관련 추가 계약 체결 (발생 확률 중간)'
+26.events – related_events – related_impact : '국내 방산 산업 전반에 긍정적인 영향'
+2025-03-27 18:50:23,775 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:50:23,780 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:50:23,780 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:50:23,781 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:50:23,786 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:50:23,786 - root - INFO - 보고서 분석 완료: 결국에는_담아야_할_종목_LIG넥스원_대신증권_표지_25.02.18.pdf
+2025-03-27 18:50:23,786 - root - INFO - 보고서 분석 중: 4/26 - 다소_느려도_확실한_방향성_LIG넥스원_키움증권_표지_25.02.19.pdf
+2025-03-27 18:50:23,786 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:50:23,786 - ragflow_analyzer - INFO - 파일명: 다소_느려도_확실한_방향성_LIG넥스원_키움증권_표지_25.02.19.pdf
+2025-03-27 18:50:23,786 - ragflow_analyzer - INFO - 회사명: LIG넥스원
+2025-03-27 18:50:23,786 - ragflow_analyzer - INFO - 작성기관: 키움증권
+2025-03-27 18:50:23,786 - ragflow_analyzer - INFO - 작성일: 2025-02-19
+2025-03-27 18:50:23,828 - ragflow_analyzer - INFO - === 문서 청크 수: 6 ===
+2025-03-27 18:50:23,837 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:50:32,348 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:50:32,348 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:50:32,348 - ragflow_analyzer - INFO - 1. investment_point - key_points: "투자의견BUY를 유지하고 목표주가를 380,000원으로 상향"
+2. investment_point - reasonings: "26~27년 평균 EPS 18,963원에 Target PER 20배를 적용하여 목표주가는 380,000원으로 상향"
+3. analysis - figure - fact: "4분기 매출액 1조1,686억원 (yoy +71.8%), 영업이익 627억원 (yoy +69.9%, OPM 5.4%)"
+4. analysis - figure - opinion: "2025년 매출액 3조7,786억원 (yoy +15.3%), 영업이익 3,154억원 (yoy +36.7%, OPM 8.3%) 전망"
+5. analysis - nonfigure - fact: "국내사업부문은 견조한 성장세가 기대됨"
+6. analysis - nonfigure - opinion: "해외사업부문은 UAE 향 수출사업 확대와 인도네시아 사업이 일부 반영될 것으로 전망"
+7. analysis - material - fact: "24년 신규수주는 약 3.5조원으로 전년대비 견조한 수준 달성"
+8. analysis - material - opinion: "신규수주 부문에서 L-SAM 양산사업 등 핵심사업들이 진행될 것"
+9. analysis - public - fact: "시가총액은 67,320억원이며 외국인지분율은 25.2%"
+10. analysis - public - opinion: "배당수익률(24E)은 1.1%로 예상됨"
+11. sector_indicators: "2024F 매출액은 3,277억 원으로 예상되며 영업이익률은 약 7%로 전망됨"
+
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 발생 시점 (2025-02-19)
+15. events - description: "LIG넥스원이 분기 실적을 발표하며 컨센서스를 상회함."
+16. events - source_quote: "4분기 영업이익627억원을 달성하며 컨센서스를 상회하였다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: 직접적 효과는 매출 증가 및 영업이익 증가
+22. events - derived_effects - indirect: 간접적으로 시장 점유율 확대 및 브랜드 가치 상승 가능성
+23. events - derived_effects - risks: 경쟁사와의 특허 소송 관련 일회성 비용 발생 가능성
+24. events - related_events - preceding: 이전 분기 실적 발표 
+25. events - related_events – subsequent : 후속 예상 이벤트 없음 
+26.events – related_events – related_impact : 방산 산업 전반에 긍정적인 영향
+2025-03-27 18:50:32,348 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:50:32,354 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:50:32,354 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:50:32,354 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:50:32,359 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:50:32,359 - root - INFO - 보고서 분석 완료: 다소_느려도_확실한_방향성_LIG넥스원_키움증권_표지_25.02.19.pdf
+2025-03-27 18:50:32,359 - root - INFO - 보고서 분석 중: 5/26 - 4Q24_실적_기대치_상회_LIG넥스원_신한투자증권_표지_25.02.04.pdf
+2025-03-27 18:50:32,359 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:50:32,359 - ragflow_analyzer - INFO - 파일명: 4Q24_실적_기대치_상회_LIG넥스원_신한투자증권_표지_25.02.04.pdf
+2025-03-27 18:50:32,359 - ragflow_analyzer - INFO - 회사명: LIG넥스원
+2025-03-27 18:50:32,359 - ragflow_analyzer - INFO - 작성기관: 신한투자증권
+2025-03-27 18:50:32,359 - ragflow_analyzer - INFO - 작성일: 2025-02-04
+2025-03-27 18:50:32,397 - ragflow_analyzer - INFO - === 문서 청크 수: 1 ===
+2025-03-27 18:50:32,407 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:50:41,308 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:50:41,308 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:50:41,308 - ragflow_analyzer - INFO - 1. investment_point - key_points: "4Q24 실적 발표가 컨센서스를 상회하며 긍정적인 성장세를 보임."
+2. investment_point - reasonings: "4Q24 연결잠정실적은 매출액 1조 1,687억원(+72%), 영업이익 628억원(+70%)으로, 컨센서스 대비 매출액 +35%, 영업이익 +19%."
+3. analysis - figure - fact: "4Q24 연결잠정실적은 매출액 1조 1,687억원, 영업이익 628억원."
+4. analysis - figure - opinion: "'25년에도 외형 성장이 지속될 것으로 예상됨."
+5. analysis - nonfigure - fact: "국내사업 및 인도네시아 프로젝트의 인식 증가로 매출 급증."
+6. analysis - nonfigure - opinion: "안정적인 장기 성장이 예상됨."
+7. analysis - material - fact: "2/3 장 종료 후 실적 30% 이상 변동 공시."
+8. analysis - material - opinion: "'25년에도 미국 비궁 및 이외 지역의 수출 확대가 기대됨."
+9. analysis - public - fact: "3Q24 기준 수주 잔고는 18.4조원이며 이라크 천궁-II 반영 시 20조원을 초과함."
+10. analysis - public - opinion: "'25년에도 수출 비중 증가와 저마진 인도네시아 프로젝트 비중 감소가 예상됨."
+11. sector_indicators: "수주 잔고 증가에 따른 외형 성장 구간 지속 (18.4조원)."
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 2025-02-03
+15. events - description: "LIG넥스원이 4Q24 실적을 발표하며 긍정적인 결과를 기록함."
+16. events - source_quote: "2/3 장 종료 후 실적 30% 이상 변동 공시"
+17. events - market_impact - short_term: 높음
+18. events - market_impact - mid_term: 중간
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: "매출액 및 영업이익 증가"
+22. events - derived_effects - indirect: "시장 점유율 증가 및 경쟁력 강화"
+23. events - derived_effects - risks: "초기 비용이 높은 국내 개발 사업 비중 증가에 따른 리스크"
+24. events - related_events - preceding: 없음
+25. events - related_events – subsequent : '25년 상세 실적 발표 (발생 확률 높음)
+26. events – related_events – related_impact : 다른 방산 기업들의 주가에 긍정적인 영향 예상
+2025-03-27 18:50:41,308 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:50:41,314 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:50:41,314 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:50:41,314 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:50:41,319 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:50:41,319 - root - INFO - 보고서 분석 완료: 4Q24_실적_기대치_상회_LIG넥스원_신한투자증권_표지_25.02.04.pdf
+2025-03-27 18:50:41,319 - root - INFO - 보고서 분석 중: 6/26 - 5G_가입자_1500만_돌파_후_안정적_성장세_SK텔레콤_미래에셋증권_표지_24.01.16.pdf
+2025-03-27 18:50:41,319 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:50:41,319 - ragflow_analyzer - INFO - 파일명: 5G_가입자_1500만_돌파_후_안정적_성장세_SK텔레콤_미래에셋증권_표지_24.01.16.pdf
+2025-03-27 18:50:41,319 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:50:41,319 - ragflow_analyzer - INFO - 작성기관: 미래에셋증권
+2025-03-27 18:50:41,319 - ragflow_analyzer - INFO - 작성일: 2024-01-16
+2025-03-27 18:50:41,376 - ragflow_analyzer - INFO - === 문서 청크 수: 11 ===
+2025-03-27 18:50:41,390 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:52:15,046 - root - INFO - 총 26개의 보고서 분석 시작
+2025-03-27 18:52:15,046 - root - INFO - 보고서 분석 중: 1/26 - 비우호적_사업환경_이어져_롯데웰푸드_IBK투자증권_표지_25.02.13.pdf
+2025-03-27 18:52:15,046 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:52:15,046 - ragflow_analyzer - INFO - 파일명: 비우호적_사업환경_이어져_롯데웰푸드_IBK투자증권_표지_25.02.13.pdf
+2025-03-27 18:52:15,046 - ragflow_analyzer - INFO - 회사명: 롯데웰푸드
+2025-03-27 18:52:15,046 - ragflow_analyzer - INFO - 작성기관: IBK투자증권
+2025-03-27 18:52:15,046 - ragflow_analyzer - INFO - 작성일: 2025-02-13
+2025-03-27 18:52:15,090 - ragflow_analyzer - INFO - === 문서 청크 수: 11 ===
+2025-03-27 18:52:15,113 - ragflow_analyzer - INFO - 기존 챗봇 사용: Noodle Machine
+2025-03-27 18:52:15,122 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:52:29,538 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:52:29,538 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:52:29,538 - ragflow_analyzer - INFO - 1. investment_point - key_points: "인도사업확대 긍정적이나, 비용상승 장기화 부담"
+2. investment_point - reasonings: "목표주가는 14만원으로 하향 조정되었으며, 현재가는 10만7500원으로 상승 여력은 30.2%에 해당"
+3. analysis - figure - fact: "현재가(2025.02.12): 107,500원, 목표주가: 140,000원"
+4. analysis - figure - opinion: "2025년 EPS는 11,526원으로 예상됨"
+5. analysis - nonfigure - fact: "하브모어푸네 신공장이 가동을 시작했으며, 인도 빼빼로 신규 라인과 초코파이 4라인이 하반기에 가동될 예정"
+6. analysis - nonfigure - opinion: "내수 소비 둔화 및 원가 부담이 지속될 것으로 예상됨"
+7. analysis - material - fact: "작년 4분기 연결 매출액은 9,705억원(-0.9% yoy), 영업이익은 196억원 적자 전환"
+8. analysis - material - opinion: "올해 실적 추정치는 하향 조정될 것으로 보임"
+9. analysis - public - fact: "외국인지분율은 13.4%이며, 시가총액은 1조140억 원임"
+10. analysis - public - opinion: "국내 소비 위축으로 인해 매출 감소가 지속될 가능성이 있음"
+11. sector_indicators: "KOSPI (2/12): 2,548.39pt; 롯데웰푸드 시가총액: 1조140억 원; 발행주식수: 9,435천주"
+
+12. events - category: 설비/R&D
+13. events - type: 실행
+14. events - timestamp: 하반기 (2025)
+15. events - description: "하브모어푸네 신공장 가동 및 인도 빼빼로 신규 라인과 초코파이 라인 가동 예정"
+16. events - source_quote: "하브모어푸네신공장(capa: 1,500억원) 가동을 개시했고... 인도 빼빼로 신규라인과 초코파이4라인도 하반기 가동 예상됨."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 중간
+20. events - market_impact - severity: 중간
+21. events - derived_effects - direct: 직접적 효과 없음
+22. events - derived_effects - indirect: 시장 점유율 증가 가능성
+23. events - derived_effects - risks: 원자재 가격 상승 위험
+24. events - related_events - preceding: 이전 공장 가동 관련 이벤트 없음
+25. events - related_events – subsequent : 추가적인 생산 확대 계획 (발생 확률 높음)
+26.events – related_events – related_impact : 경쟁사 대비 시장 점유율 증가 가능성
+2025-03-27 18:52:29,538 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:52:29,588 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:52:29,588 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:52:29,588 - root - INFO - 보고서 분석 완료: 비우호적_사업환경_이어져_롯데웰푸드_IBK투자증권_표지_25.02.13.pdf
+2025-03-27 18:52:29,588 - root - INFO - 보고서 분석 중: 2/26 - 수익성_회복_전략_본격화_롯데웰푸드_키움증권_표지_25.02.13.pdf
+2025-03-27 18:52:29,588 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:52:29,588 - ragflow_analyzer - INFO - 파일명: 수익성_회복_전략_본격화_롯데웰푸드_키움증권_표지_25.02.13.pdf
+2025-03-27 18:52:29,588 - ragflow_analyzer - INFO - 회사명: 롯데웰푸드
+2025-03-27 18:52:29,588 - ragflow_analyzer - INFO - 작성기관: 키움증권
+2025-03-27 18:52:29,588 - ragflow_analyzer - INFO - 작성일: 2025-02-13
+2025-03-27 18:52:29,633 - ragflow_analyzer - INFO - === 문서 청크 수: 8 ===
+2025-03-27 18:52:29,644 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:52:39,462 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:52:39,462 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:52:39,462 - ragflow_analyzer - INFO - 1. investment_point - key_points: "롯데웰푸드의 수익성 회복 전략 본격화"
+2. investment_point - reasonings: "올해 가격 인상과 비용 효율화를 통해 수익성 회복이 기대됨."
+3. analysis - figure - fact: "4Q24 연결기준 영업이익은 -196억원으로 시장 기대치를 하회함."
+4. analysis - figure - opinion: "2025년 영업이익은 180.9억원으로 예상됨."
+5. analysis - nonfigure - fact: "주력 제품 가격 인상 및 비용 효율화 계획을 세움."
+6. analysis - nonfigure - opinion: "2분기부터 가격 인상 효과가 반영되면서 전사 수익성이 점차 회복될 것으로 전망됨."
+7. analysis - material - fact: "4Q24 영업이익 적자 전환, 통상임금 이슈와 원가 상승 부담으로 부진한 수익성을 시현함."
+8. analysis - material - opinion: "1분기까지는 수익성 부진이 지속될 가능성이 높음."
+9. analysis - public - fact: "목표 주가는 153,000원으로 유지됨."
+10. analysis - public - opinion: "인도를 중심으로 글로벌 성장 동력이 강화될 것으로 전망됨."
+11. sector_indicators: "KOSPI 2,548.39pt, 롯데웰푸드 시가총액 10,142억원"
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 2025-02-13
+15. events - description: "롯데웰푸드의 4Q24 실적 발표 및 향후 전략 설명"
+16. events - source_quote: "올해는 원재료 투입 단가 상승을 방어하기 위해 주력 제품 가격 인상과 비용 효율화에 주력할 계획이다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: 매출 증가 예상 (2025년 매출액 4,199억원)
+22. events - derived_effects - indirect: 브랜드 가치 및 시장 점유율 개선 기대
+23. events - derived_effects - risks: 원자재 가격 변동 위험
+24. events - related_events – preceding : 이전 분기 실적 발표 (3Q24)
+25. events – related_events – subsequent : 가격 인상 후 실적 개선 (발생 확률 높음)
+26.events – related_events – related_impact : 경쟁사 대비 우위 확보 가능성
+2025-03-27 18:52:39,462 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:52:39,483 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:52:39,483 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:52:39,483 - root - INFO - 보고서 분석 완료: 수익성_회복_전략_본격화_롯데웰푸드_키움증권_표지_25.02.13.pdf
+2025-03-27 18:52:39,483 - root - INFO - 보고서 분석 중: 3/26 - 결국에는_담아야_할_종목_LIG넥스원_대신증권_표지_25.02.18.pdf
+2025-03-27 18:52:39,483 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:52:39,484 - ragflow_analyzer - INFO - 파일명: 결국에는_담아야_할_종목_LIG넥스원_대신증권_표지_25.02.18.pdf
+2025-03-27 18:52:39,484 - ragflow_analyzer - INFO - 회사명: LIG넥스원
+2025-03-27 18:52:39,484 - ragflow_analyzer - INFO - 작성기관: 대신증권
+2025-03-27 18:52:39,484 - ragflow_analyzer - INFO - 작성일: 2025-02-18
+2025-03-27 18:52:39,536 - ragflow_analyzer - INFO - === 문서 청크 수: 16 ===
+2025-03-27 18:52:39,546 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:52:48,330 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:52:48,330 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:52:48,330 - ragflow_analyzer - INFO - 1. investment_point - key_points: "2026년 이익 성장 가속화 및 트렌디한 수주 가능성"
+2. investment_point - reasonings: "목표주가는 330,000원으로 상향 (+8.2%)"
+3. analysis - figure - fact: "4Q24 연결기준 매출액 1.17조원 (+71.8% yoy), 영업이익 627억원 (+69.9% yoy)"
+4. analysis - figure - opinion: "2025년 예상 EPS는 15,043원, 2026년 예상 EPS는 18,006원"
+5. analysis - nonfigure - fact: "수주 잔고는 20.1조원으로 약 6년치 매출 기준의 잔고 보유"
+6. analysis - nonfigure - opinion: "'26년 이익 성장 속도는 가속화될 예정"
+7. analysis - material - fact: "컨센서스는 상회했지만 아쉬운 이익 증가 속도"
+8. analysis - material - opinion: "'25년은 UAE 천궁-II 양산이 나타나며 매출 믹스 개선 기대"
+9. analysis - public - fact: "현재 PER은 31.0이며 목표 PER은 20.0배 적용"
+10. analysis - public - opinion: "추가 상승 부담이 있으나 장기 투자 관점에서 적합"
+11. sector_indicators: "KOSPI 지수 2,610.42, 시가총액 비중 0.29%"
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 2025-02-17
+15. events - description: "LIG넥스원의 연결 영업이익과 매출액 발표"
+16. events - source_quote: "@."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: "영업이익 증가로 인한 재무 안정성 향상"
+22. events - derived_effects - indirect: "시장 점유율 확대 및 브랜드 가치 상승 기대"
+23. events - derived_effects - risks: "저수익성인 니무전기사업의 영향 지속 가능성"
+24. events - related_events - preceding: 없음
+25. events - related_events – subsequent : '25년 UAE 천궁-II 양산 시작 (발생 확률 높음)
+26.events – related_events – related_impact : 방위 산업 전반에 긍정적 영향
+2025-03-27 18:52:48,330 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:52:48,335 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:52:48,335 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:52:48,335 - root - INFO - 보고서 분석 완료: 결국에는_담아야_할_종목_LIG넥스원_대신증권_표지_25.02.18.pdf
+2025-03-27 18:52:48,335 - root - INFO - 보고서 분석 중: 4/26 - 다소_느려도_확실한_방향성_LIG넥스원_키움증권_표지_25.02.19.pdf
+2025-03-27 18:52:48,335 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:52:48,335 - ragflow_analyzer - INFO - 파일명: 다소_느려도_확실한_방향성_LIG넥스원_키움증권_표지_25.02.19.pdf
+2025-03-27 18:52:48,335 - ragflow_analyzer - INFO - 회사명: LIG넥스원
+2025-03-27 18:52:48,335 - ragflow_analyzer - INFO - 작성기관: 키움증권
+2025-03-27 18:52:48,335 - ragflow_analyzer - INFO - 작성일: 2025-02-19
+2025-03-27 18:52:48,377 - ragflow_analyzer - INFO - === 문서 청크 수: 6 ===
+2025-03-27 18:52:48,387 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:52:58,924 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:52:58,924 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:52:58,924 - ragflow_analyzer - INFO - 1. investment_point - key_points: "투자의견BUY를 유지하고 목표주가를 380,000원으로 상향"
+2. investment_point - reasonings: "26~27년 평균 EPS 18,963원에 Target PER 20배를 적용하여 목표주가는 380,000원으로 상향"
+3. analysis - figure - fact: "4분기 매출액 1조1,686억원 (yoy +71.8%), 영업이익 627억원 (yoy +69.9%)"
+4. analysis - figure - opinion: "2025년 매출액 3조7,786억원 (yoy +15.3%), 영업이익 3,154억원 (yoy +36.7%) 전망"
+5. analysis - nonfigure - fact: "국내사업부문은 견조한 성장세가 기대됨"
+6. analysis - nonfigure - opinion: "해외사업부문은 UAE 향 수출사업 확대와 인도네시아 사업이 일부 반영될 것으로 전망"
+7. analysis - material - fact: "4분기 영업이익 627억원을 달성하며 컨센서스를 상회함"
+8. analysis - material - opinion: "신규수주는 약 3.5조원으로 견조한 수준을 달성할 것으로 판단됨"
+9. analysis - public - fact: "시가총액은 67,320억원임"
+10. analysis - public - opinion: "해외사업 비중 증가에 따른 실적 개선 기대감이 유효함"
+11. sector_indicators: "2024년 신규수주 잔고는 20.1조원으로 전년대비 9.5% 확대됨"
+
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 발생 시점 (2025-02-19)
+15. events - description: "LIG넥스원이 4분기 실적을 발표하며 영업이익과 매출 모두 시장 기대치를 초과함."
+16. events - source_quote: "이번분기 견조한 실적의 주요인은 다양한 국내 개발사업들이 진행되며 매출 볼륨이 확대된 영향으로 판단한다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: "매출 증가 및 영업이익 증가 예상됨"
+22. events - derived_effects - indirect: "경쟁력 강화 및 브랜드 가치 상승 가능성 있음"
+23. events - derived_effects - risks: "경쟁사와의 특허 소송 관련 일회성 비용 발생 가능성 있음"
+24. events - related_events - preceding: 없음
+25. events - related_events – subsequent : 해외사업 비중 증가에 따른 추가 실적 발표 (발생 확률 높음)
+26.events – related_events – related_impact : 방산 산업 전반에 긍정적인 영향 미칠 것으로 예상됨
+2025-03-27 18:52:58,925 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:52:58,930 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:52:58,930 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:52:58,930 - root - INFO - 보고서 분석 완료: 다소_느려도_확실한_방향성_LIG넥스원_키움증권_표지_25.02.19.pdf
+2025-03-27 18:52:58,930 - root - INFO - 보고서 분석 중: 5/26 - 4Q24_실적_기대치_상회_LIG넥스원_신한투자증권_표지_25.02.04.pdf
+2025-03-27 18:52:58,930 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:52:58,930 - ragflow_analyzer - INFO - 파일명: 4Q24_실적_기대치_상회_LIG넥스원_신한투자증권_표지_25.02.04.pdf
+2025-03-27 18:52:58,930 - ragflow_analyzer - INFO - 회사명: LIG넥스원
+2025-03-27 18:52:58,931 - ragflow_analyzer - INFO - 작성기관: 신한투자증권
+2025-03-27 18:52:58,931 - ragflow_analyzer - INFO - 작성일: 2025-02-04
+2025-03-27 18:52:58,969 - ragflow_analyzer - INFO - === 문서 청크 수: 1 ===
+2025-03-27 18:52:58,979 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:53:07,957 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:53:07,957 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:53:07,957 - ragflow_analyzer - INFO - 1. investment_point - key_points: "4Q24 실적 발표가 컨센서스 대비 호실적을 기록"
+2. investment_point - reasonings: "4Q24 연결잠정실적은 매출액 1조 1,687억원(+72%), 영업이익 628억원(+70%)으로, 컨센서스 대비 매출액 +35%, 영업이익 +19%를 기록"
+3. analysis - figure - fact: "4Q24 연결잠정실적 매출액 1조 1,687억원, 영업이익 628억원"
+4. analysis - figure - opinion: "'25년에도 외형 성장 지속 예상"
+5. analysis - nonfigure - fact: "국내사업 및 인도네시아 프로젝트의 인식 증가로 매출 급증"
+6. analysis - nonfigure - opinion: "안정적인 장기 성장 예상"
+7. analysis - material - fact: "2/3 장 종료 후 실적 30% 이상 변동 공시"
+8. analysis - material - opinion: "'25년에도 수출 비중 증가와 저마진 프로젝트 비중 감소 기대"
+9. analysis - public - fact: "3Q24 기준 수주 잔고는 18.4조원이며 이라크 천궁-II 반영 시 20조원을 초과할 것으로 예상됨"
+10. analysis - public - opinion: "'25년에도 미국 비궁 및 이외 지역의 수출 확대 기대"
+11. sector_indicators: "수주 잔고 증가에 따른 외형 성장 구간 지속"
+
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 2025-02-03
+15. events - description: "4Q24 연결잠정실적 발표 및 변동 공시"
+16. events - source_quote: "2/3 장 종료 후 실적 30% 이상 변동 공시"
+17. events - market_impact - short_term: 높음
+18. events - market_impact - mid_term: 중간
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: "매출액 증가 및 영업이익 증가"
+22. events - derived_effects - indirect: "시장 점유율 확대 및 경쟁력 강화"
+23. events - derived_effects - risks: "초기 비용 높은 국내 개발 사업 비중 증가에 따른 이익률 둔화 위험"
+24. events - related_events - preceding: 없음
+25. events - related_events – subsequent:"상세 실적 발표 예정 (발생 확률 높음)"
+26. events – related_events – related_impact:"LIG넥스원 관련 산업 전반에 긍정적인 영향"
+2025-03-27 18:53:07,957 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:53:07,962 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:53:07,962 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:53:07,962 - root - INFO - 보고서 분석 완료: 4Q24_실적_기대치_상회_LIG넥스원_신한투자증권_표지_25.02.04.pdf
+2025-03-27 18:53:07,962 - root - INFO - 보고서 분석 중: 6/26 - 5G_가입자_1500만_돌파_후_안정적_성장세_SK텔레콤_미래에셋증권_표지_24.01.16.pdf
+2025-03-27 18:53:07,963 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:53:07,963 - ragflow_analyzer - INFO - 파일명: 5G_가입자_1500만_돌파_후_안정적_성장세_SK텔레콤_미래에셋증권_표지_24.01.16.pdf
+2025-03-27 18:53:07,963 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:53:07,963 - ragflow_analyzer - INFO - 작성기관: 미래에셋증권
+2025-03-27 18:53:07,963 - ragflow_analyzer - INFO - 작성일: 2024-01-16
+2025-03-27 18:53:08,011 - ragflow_analyzer - INFO - === 문서 청크 수: 11 ===
+2025-03-27 18:53:08,023 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:53:17,392 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:53:17,393 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:53:17,393 - ragflow_analyzer - INFO - 1. investment_point - key_points: "5G 가입자 1,500만 돌파 후 안정적 성장세"
+2. investment_point - reasonings: "2024년 예상 매출 17,968억 원, 영업이익 1,919억 원으로 각각 10.0%, 10.7% 증가"
+3. analysis - figure - fact: "2023년 SK텔레콤의 예상 매출은 17,562억 원"
+4. analysis - figure - opinion: "2024년 SK텔레콤의 매출은 17,968억 원으로 증가할 것으로 예상"
+5. analysis - nonfigure - fact: "B2B 및 IDC 부문에서 YoY 성장률이 각각 45%, 32%에 달함"
+6. analysis - nonfigure - opinion: "향후 B2B 및 IDC 부문에서 지속적인 성장이 기대됨"
+7. analysis - material - fact: "SK텔레콤은 2024년 ARPU가 약 29,364원에 이를 것으로 전망됨"
+8. analysis - material - opinion: "ARPU 상승은 고객당 수익성 개선을 의미하며 긍정적인 영향을 미칠 것임"
+9. analysis - public - fact: "KOSPI는 현재 2,525.99로 보고됨"
+10. analysis - public - opinion: "KOSPI의 안정세가 SK텔레콤 주가에 긍정적으로 작용할 가능성이 있음"
+11. sector_indicators: "5G 가입자 수는 현재 약 1,500만 명이며 ARPU는 약 29,364원으로 추정됨"
+
+12. events - category: 자본/재무
+13. events - type: 발표
+14. events - timestamp: 발생 시점 (2024-01-15)
+15. events - description: "SK텔레콤이 연간 실적을 발표하며 향후 성장 전망을 제시함."
+16. events - source_quote: "5G 가입자 수가 증가하면서 안정적인 성장세를 보이고 있다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: 매출 증가 (예상 매출 증가)
+22. events - derived_effects - indirect: 시장 점유율 확대
+23. events - derived_effects - risks: 경쟁 심화로 인한 시장 압박 가능성
+24. events - related_events – preceding : 이전 분기 실적 발표 
+25. events – related_events – subsequent : 신규 서비스 출시 (발생 확률 중간)
+26.events – related_events – related_impact : 통신 산업 전반에 긍정적 영향
+2025-03-27 18:53:17,393 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:53:17,398 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:53:17,398 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:53:17,398 - root - INFO - 보고서 분석 완료: 5G_가입자_1500만_돌파_후_안정적_성장세_SK텔레콤_미래에셋증권_표지_24.01.16.pdf
+2025-03-27 18:53:17,398 - root - INFO - 보고서 분석 중: 7/26 - 4Q_리뷰__이제_매수하시면_됩니다_SK텔레콤_하나증권_표지_25.02.13.pdf
+2025-03-27 18:53:17,398 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:53:17,398 - ragflow_analyzer - INFO - 파일명: 4Q_리뷰__이제_매수하시면_됩니다_SK텔레콤_하나증권_표지_25.02.13.pdf
+2025-03-27 18:53:17,398 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:53:17,398 - ragflow_analyzer - INFO - 작성기관: 하나증권
+2025-03-27 18:53:17,398 - ragflow_analyzer - INFO - 작성일: 2025-02-13
+2025-03-27 18:53:17,443 - ragflow_analyzer - INFO - === 문서 청크 수: 9 ===
+2025-03-27 18:53:17,462 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:53:28,077 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:53:28,077 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:53:28,077 - ragflow_analyzer - INFO - 1. investment_point - key_points: "2024년 4분기 실적 발표를 계기로 실적 부진에 대한 우려가 제거되었고, 2025년에도 영업이익 성장을 이어나갈 것."
+2. investment_point - reasonings: "현재 과도하게 높게 형성된 기대 배당 수익률이 정상화됨과 동시에 주가 상승 나타날 가능성이 높다."
+3. analysis - figure - fact: "2024년 4분기 연결 영업이익은 2,541억원으로 컨센서스(3,453억원)를 크게 하회하였다."
+4. analysis - figure - opinion: "2025년에도 유의미한 이익 증가가 예상된다."
+5. analysis - nonfigure - fact: "일회성 비용 반영으로 인해 인건비가 전년 동기 대비 20% 증가하였다."
+6. analysis - nonfigure - opinion: "장기 배당 성장 잠재력을 감안할 때 SK텔레콤은 절대 저평가되어 있다."
+7. analysis - material - fact: "2024년 총 배당금이 유지되는 모습이 나타났다."
+8. analysis - material - opinion: "2025년도에 높은 기저로 이익 성장이 어려울 것이라는 우려는 사라졌다."
+9. analysis - public - fact: "SK텔레콤의 시가총액은 12,028.2십억원이다."
+10. analysis - public - opinion: "연내 20% 주가 상승을 기대할 만하다."
+11. sector_indicators: "KOSPI 지수는 2,548.39pt이며, SK텔레콤의 시가총액 비중은 0.58%이다."
+
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 2025-02-13
+15. events - description: "SK텔레콤의 2024년 4분기 실적 발표"
+16. events - source_quote: "4분기 영업이익 컨센서스를 하회하였으나 일회성 비용 제거 시 양호한 실적으로 평가된다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 중간
+21. events - derived_effects - direct: "영업이익 감소"
+22. events - derived_effects - indirect: "경쟁력 저하"
+23. events - derived_effects - risks: "일회성 비용 증가로 인한 신뢰도 하락"
+24. events - related_events - preceding: 없음
+25. events - related_events – subsequent : “후속 예상 이벤트 없음”
+26.events – related_events – related_impact : “통신 서비스 업종 전체에 미치는 영향”
+2025-03-27 18:53:28,077 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:53:28,082 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:53:28,082 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:53:28,082 - root - INFO - 보고서 분석 완료: 4Q_리뷰__이제_매수하시면_됩니다_SK텔레콤_하나증권_표지_25.02.13.pdf
+2025-03-27 18:53:28,082 - root - INFO - 보고서 분석 중: 8/26 - 1등_사업자_다운_면모_SK텔레콤_유안타증권_표지_24.01.12.pdf
+2025-03-27 18:53:28,083 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:53:28,083 - ragflow_analyzer - INFO - 파일명: 1등_사업자_다운_면모_SK텔레콤_유안타증권_표지_24.01.12.pdf
+2025-03-27 18:53:28,083 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:53:28,083 - ragflow_analyzer - INFO - 작성기관: 유안타증권
+2025-03-27 18:53:28,083 - ragflow_analyzer - INFO - 작성일: 2024-01-12
+2025-03-27 18:53:28,130 - ragflow_analyzer - INFO - === 문서 청크 수: 9 ===
+2025-03-27 18:53:28,139 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:53:36,535 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:53:36,535 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:53:36,535 - ragflow_analyzer - INFO - 1. investment_point - key_points: "투자의견 BUY, 목표주가 65,000원 유지"
+2. investment_point - reasonings: "현재주가(1/11) 49,150원으로 상승여력 32% 예상"
+3. analysis - figure - fact: "4Q23 연결영업수익은 4.5조원(+1.4% YoY), 영업이익은 3,033억원(+19.2% YoY)"
+4. analysis - figure - opinion: "24년 연결영업수익은 17.9조원(+2.1% YoY), 영업이익은 1.8조원(+4.6% YoY)으로 전망"
+5. analysis - nonfigure - fact: "통신업종 내 유일하게 시장컨센서스 상회하는 영업이익 실현 예상"
+6. analysis - nonfigure - opinion: "5G 가입자 증가에 따른 MNO 시장에서의 지위 강화 예상"
+7. analysis - material - fact: "인건비 관련 일회성 비용 300억원 반영"
+8. analysis - material - opinion: "마케팅비 등 비용 효율화가 지속될 것으로 기대"
+9. analysis - public - fact: "배당수익률 7.00%"
+10. analysis - public - opinion: "추가적인 주주환원 가능성 열어둠"
+11. sector_indicators: "IPTV M/S(32.5% 추정) 확대 추세"
+
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 2024-01-12
+15. events - description: "SK텔레콤의 4Q23 연결실적 발표 및 전망 제시"
+16. events - source_quote: "투자의견 BUY, 목표주가 65,000원 유지"
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: "연결영업수익 증가로 인한 매출 성장 기대"
+22. events - derived_effects - indirect: "5G 가입자 수 증가로 인한 시장 점유율 확대 예상"
+23. events - derived_effects - risks: "비용 증가 및 경쟁 심화 위험 요소 존재"
+24. events - related_events - preceding: 없음
+25. events - related_events – subsequent : 자사주 매입 진행 중 (발생 확률 높음)
+26.events – related_events – related_impact : 통신 업계 전반에 긍정적 영향
+2025-03-27 18:53:36,535 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:53:36,541 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:53:36,541 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:53:36,542 - root - INFO - 보고서 분석 완료: 1등_사업자_다운_면모_SK텔레콤_유안타증권_표지_24.01.12.pdf
+2025-03-27 18:53:36,542 - root - INFO - 보고서 분석 중: 9/26 - 2월_전략__너무_쌉니다_2월_중순_노려야_SK텔레콤_하나증권_표지_25.02.05.pdf
+2025-03-27 18:53:36,542 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:53:36,542 - ragflow_analyzer - INFO - 파일명: 2월_전략__너무_쌉니다_2월_중순_노려야_SK텔레콤_하나증권_표지_25.02.05.pdf
+2025-03-27 18:53:36,542 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:53:36,542 - ragflow_analyzer - INFO - 작성기관: 하나증권
+2025-03-27 18:53:36,542 - ragflow_analyzer - INFO - 작성일: 2025-02-05
+2025-03-27 18:53:36,589 - ragflow_analyzer - INFO - === 문서 청크 수: 10 ===
+2025-03-27 18:53:36,599 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:53:47,406 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:53:47,406 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:53:47,406 - ragflow_analyzer - INFO - 1. investment_point - key_points: "2024년 4분기 어닝쇼크를 기록할 전망이지만 일회성 비용에 기인한 바가 커 내용면에서는 양호할 것"
+2. investment_point - reasonings: "2023년에 이어 2024년에도 연간으로는 유의미한 이익 성장을 기록할 전망이며, 2025년에도 의미 있는 이익 성장을 기록할 전망"
+3. analysis - figure - fact: "2024년 연결 영업이익이 2,419억원(-19% YoY, -55% QoQ)으로 컨센서스(연결 영업이익 3,453억원)를 크게 하회할 전망"
+4. analysis - figure - opinion: "2025년 영업이익은 2,005억원으로 예상됨"
+5. analysis - nonfigure - fact: "최근 SKT 주가 부진 사유는 4분기 실적 우려와 이에 따른 배당금 감소 가능성 때문"
+6. analysis - nonfigure - opinion: "배당금은 소폭이나마 증가할 가능성이 높음"
+7. analysis - material - fact: "4분기 실적 발표 예정일은 2월 12일(수)"
+8. analysis - material - opinion: "악재 해소의 역할을 수행할 가능성이 높음"
+9. analysis - public - fact: "현재 주가는 55,700원이며 목표주가는 70,000원으로 유지됨"
+10. analysis - public - opinion: "현재 기대 배당 수익률은 과도하게 높은 수준이라 결국 SKT 주가 상승 나타날 것"
+11. sector_indicators: "KOSPI 지수는 2,453.95pt이며 시가총액 비중은 0.60%"
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 2025년 2월 12일
+15. events - description: "2024년 연결 영업이익 발표 예정"
+16. events - source_quote: "4분기 실적 발표 예정인 2/12일(수)이 악재 해소의 역할을 수행할 가능성이 높아보임"
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 낮음
+20. events - market_impact - severity: 중간
+21. events - derived_effects - direct: 직접적 효과 없음
+22. events - derived_effects - indirect: 시장 점유율 유지 가능성 있음
+23. events - derived_effects - risks: 외국인 매도 전환 가능성 낮음
+24. events - related_events - preceding: 이전 분기 실적 발표 
+25. events - related_events – subsequent : 후속 예상 이벤트 없음 
+26.events – related_events – related_impact : KT와 비교하여 SKT의 시가총액 유지
+2025-03-27 18:53:47,407 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:53:47,412 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:53:47,412 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:53:47,412 - root - INFO - 보고서 분석 완료: 2월_전략__너무_쌉니다_2월_중순_노려야_SK텔레콤_하나증권_표지_25.02.05.pdf
+2025-03-27 18:53:47,412 - root - INFO - 보고서 분석 중: 10/26 - 4Q_비용_털고_25년_AI로_간다_SK텔레콤_미래에셋증권_표지_25.01.17.pdf
+2025-03-27 18:53:47,412 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:53:47,412 - ragflow_analyzer - INFO - 파일명: 4Q_비용_털고_25년_AI로_간다_SK텔레콤_미래에셋증권_표지_25.01.17.pdf
+2025-03-27 18:53:47,412 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:53:47,412 - ragflow_analyzer - INFO - 작성기관: 미래에셋증권
+2025-03-27 18:53:47,412 - ragflow_analyzer - INFO - 작성일: 2025-01-17
+2025-03-27 18:53:47,459 - ragflow_analyzer - INFO - === 문서 청크 수: 9 ===
+2025-03-27 18:53:47,469 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:53:58,000 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:53:58,000 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:53:58,000 - ragflow_analyzer - INFO - 1. investment_point - key_points: "목표주가 70,000원, 투자의견 '매수' 유지"
+2. investment_point - reasonings: "현재주가 55,300원으로 상승여력 26.6%"
+3. analysis - figure - fact: "2024년 영업이익 1,852억원 (Consensus 1,874억원)"
+4. analysis - figure - opinion: "2025년 영업이익 1,982억원 예상"
+5. analysis - nonfigure - fact: "25년 B2B 사업 두자릿수 성장 전망"
+6. analysis - nonfigure - opinion: "25년 AI 성과 본격화 기대"
+7. analysis - material - fact: "4Q 연결매출은 4조5,500억원 (+0.5% YoY)"
+8. analysis - material - opinion: "4Q 일회성 비용 발생으로 영업이익 하회 예상"
+9. analysis - public - fact: "24년 배당액은 실적 발표일(2월12일)에 결정"
+10. analysis - public - opinion: "24년 DPS는 3,500원으로 예상 (배당수익률 6.3%)"
+11. sector_indicators: "KOSPI P/E(24F) 10.5배"
+
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 2025-01-17
+15. events - description: "4Q 연결매출 및 영업이익 발표"
+16. events - source_quote: "4Q 연결매출은 4조5,500억원(+0.5% YoY)으로 시장예상치에 부합할 것으로 전망한다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 중간
+21. events - derived_effects - direct: "영업이익 감소로 인한 매출 영향"
+22. events - derived_effects - indirect: "시장 점유율 유지 가능성"
+23. events - derived_effects - risks: "일회성 비용 증가에 따른 수익성 악화 위험"
+24. events - related_events - preceding: 없음
+25. events - related_events – subsequent : 후속 이벤트 발생 확률 높음 
+26.events – related_events – related_impact : SK텔레콤의 B2B 사업 성장에 긍정적 영향
+2025-03-27 18:53:58,000 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:53:58,005 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:53:58,005 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:53:58,006 - root - INFO - 보고서 분석 완료: 4Q_비용_털고_25년_AI로_간다_SK텔레콤_미래에셋증권_표지_25.01.17.pdf
+2025-03-27 18:53:58,006 - root - INFO - 보고서 분석 중: 11/26 - 5월_전략__단기_호재가_많아질_시점입니다_SK텔레콤_하나증권_표지_24.04.30.pdf
+2025-03-27 18:53:58,006 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:53:58,006 - ragflow_analyzer - INFO - 파일명: 5월_전략__단기_호재가_많아질_시점입니다_SK텔레콤_하나증권_표지_24.04.30.pdf
+2025-03-27 18:53:58,006 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:53:58,006 - ragflow_analyzer - INFO - 작성기관: 하나증권
+2025-03-27 18:53:58,006 - ragflow_analyzer - INFO - 작성일: 2024-04-30
+2025-03-27 18:53:58,056 - ragflow_analyzer - INFO - === 문서 청크 수: 10 ===
+2025-03-27 18:53:58,066 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:54:13,514 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:54:13,514 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:54:13,514 - ragflow_analyzer - INFO - 1. investment_point - key_points: "연간 2%에 달하는 자사주 매입과 7%에 달하는 기대 배당 수익률이 예상된다."
+2. investment_point - reasonings: "2024년 일시적인 실적 부진이 예상되지만 차세대 요금제 출시를 통해 2025년엔 매출 성장, 2026년엔 이익 성장 국면을 맞이할 공산이 크다."
+3. analysis - figure - fact: "2024년 연결 영업이익은 4,938억원(-0% YoY, +63% QoQ)으로 전년 동기 수준의 영업이익 기록과 컨센서스에 부합할 전망이다."
+4. analysis - figure - opinion: "2025년 매출액은 18,180억원으로 증가할 것으로 예상된다."
+5. analysis - nonfigure - fact: "하반기 이후 규제 상황도 점진적인 개선 추세를 나타낼 전망이다."
+6. analysis - nonfigure - opinion: "현재 기대 배당 수익률 수준에서는 강한 주가 하방 경직성을 갖출 것으로 보인다."
+7. analysis - material - fact: "SKT는 5/8일(수) 2024년 1분기 실적을 발표할 예정이다."
+8. analysis - material - opinion: "자사주 매입/소각 이벤트가 주가에 큰 영향을 미칠 것으로 예상된다."
+9. analysis - public - fact: "현재 SK텔레콤의 시가총액은 10,997.3억원이다."
+10. analysis - public - opinion: "자사주 매입 발표 후 주가 상승이 기대된다."
+11. sector_indicators: "KOSPI 지수는 2,687.44pt이며, SK텔레콤의 외국인 지분율은 42.09%이다."
+12. events - category: 자본/재무
+13. events - type: 계획
+14. events - timestamp: 조만간 (예상)
+15. events - description: "약 2,000억원 규모의 자사주 매입/소각을 발표할 예정이다."
+16. events - source_quote: "조만간 2,000억원에 달하는 자사주 매입/소각을 발표할 것으로 보여 실제 수급 개선에 큰 도움될 전망이다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: 직접적 효과 없음 (실적 변화 없음)
+22. events - derived_effects - indirect: 시장 점유율 증가 및 브랜드 가치 상승 가능성
+23. events - derived_effects - risks: 자사주 매입 실패 시 주가 하락 위험
+24. events - related_events - preceding: 이전 분기 실적 발표
+25. events - related_events – subsequent : 추가 자사주 매입 계획 발표 (발생 확률 높음)
+26.events – related_events – related_impact : 경쟁 통신사의 주가에도 긍정적인 영향 가능성
+2025-03-27 18:54:13,515 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:54:13,520 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:54:13,520 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:54:13,520 - root - INFO - 보고서 분석 완료: 5월_전략__단기_호재가_많아질_시점입니다_SK텔레콤_하나증권_표지_24.04.30.pdf
+2025-03-27 18:54:13,520 - root - INFO - 보고서 분석 중: 12/26 - 3Q_리뷰__실적_우수했고_수급도_양호할_것_SK텔레콤_하나증권_표지_24.11.07.pdf
+2025-03-27 18:54:13,520 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:54:13,520 - ragflow_analyzer - INFO - 파일명: 3Q_리뷰__실적_우수했고_수급도_양호할_것_SK텔레콤_하나증권_표지_24.11.07.pdf
+2025-03-27 18:54:13,520 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:54:13,520 - ragflow_analyzer - INFO - 작성기관: 하나증권
+2025-03-27 18:54:13,520 - ragflow_analyzer - INFO - 작성일: 2024-11-07
+2025-03-27 18:54:13,566 - ragflow_analyzer - INFO - === 문서 청크 수: 9 ===
+2025-03-27 18:54:13,576 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:54:21,694 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:54:21,694 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:54:21,695 - ragflow_analyzer - INFO - 1. investment_point - key_points: "투자의견 매수, 12개월 목표가 7만원 유지"
+2. investment_point - reasonings: "최근 실적 흐름이 당초 예상보다도 양호하게 나타나고, 연간 총 배당금이 8천억원에 달할 것으로 예상됨"
+3. analysis - figure - fact: "2024년 3분기 연결 영업이익 5,333억원(+7% YoY, -1% QoQ)"
+4. analysis - figure - opinion: "2024년에도 SKT가 영업이익 증가를 기록할 가능성이 높음"
+5. analysis - nonfigure - fact: "5G 순증 가입자 축소에도 불구하고 YoY 이동전화 매출액 성장을 지속함"
+6. analysis - nonfigure - opinion: "2026년 이후 장기 이익 성장 가능성에 대한 투자자들의 믿음이 형성될 것임"
+7. analysis - material - fact: "2024년 3분기 실적은 컨센서스를 상회함"
+8. analysis - material - opinion: "향후 분기에서도 안정적인 실적을 기록할 것으로 예상됨"
+9. analysis - public - fact: "현재 기대 배당 수익률은 6.7%에 달함"
+10. analysis - public - opinion: "배당금 증가 추세가 이어질 것으로 보임"
+11. sector_indicators: "KOSPI 지수 2,576.88pt, 시가총액 비중 0.58%"
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 2024년 11월 07일
+15. events - description: "SK텔레콤의 3분기 실적 발표 및 분석 보고서 발행"
+16. events - source_quote: "3분기 영업이익 컨센서스를 상회하는 양호한 실적을 기록하였다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: "영업이익 증가로 인한 재무 안정성 강화"
+22. events - derived_effects - indirect: "시장 점유율 확대 및 브랜드 가치 상승 가능성"
+23. events - derived_effects - risks: "배당 감소 리스크에 대한 우려 존재"
+24. events - related_events - preceding: 없음
+25. events - related_events – subsequent : “차세대 네트워크 요금제 출시 (발생 확률 높음)”
+26. events – related_events – related_impact : “경쟁사 KT와의 시장 경쟁 심화”
+2025-03-27 18:54:21,695 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:54:21,700 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:54:21,700 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:54:21,700 - root - INFO - 보고서 분석 완료: 3Q_리뷰__실적_우수했고_수급도_양호할_것_SK텔레콤_하나증권_표지_24.11.07.pdf
+2025-03-27 18:54:21,700 - root - INFO - 보고서 분석 중: 13/26 - 2Q_프리뷰__실적_예상보다_좋고_스토리_나오_SK텔레콤_하나증권_표지_24.07.16.pdf
+2025-03-27 18:54:21,700 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:54:21,700 - ragflow_analyzer - INFO - 파일명: 2Q_프리뷰__실적_예상보다_좋고_스토리_나오_SK텔레콤_하나증권_표지_24.07.16.pdf
+2025-03-27 18:54:21,700 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:54:21,700 - ragflow_analyzer - INFO - 작성기관: 하나증권
+2025-03-27 18:54:21,700 - ragflow_analyzer - INFO - 작성일: 2024-07-16
+2025-03-27 18:54:21,745 - ragflow_analyzer - INFO - === 문서 청크 수: 8 ===
+2025-03-27 18:54:21,754 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:54:33,828 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:54:33,828 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:54:33,828 - ragflow_analyzer - INFO - 1. investment_point - key_points: "상반기 추정 실적으로 보면 통신 3사 중 유일하게 2024년에도 양호한 실적을 기록할 전망"
+2. investment_point - reasonings: "2024년 2분기 연결 영업이익 YoY 15% 증가한 5,329억원으로 컨센서스(영업이익 4,970억원)를 크게 상회할 것"
+3. analysis - figure - fact: "2024년 2분기 영업이익은 5,329억원(+15% YoY, +7% QoQ)"
+4. analysis - figure - opinion: "2025년도엔 새로운 5G 주파수 투자 및 신규 요금제 출시 이슈가 불거질 가능성이 높음"
+5. analysis - nonfigure - fact: "SK 그룹 지배구조 개편 이슈가 지속될 수밖에 없음"
+6. analysis - nonfigure - opinion: "주가 상승 기대감이 높아질 수 있는 상황"
+7. analysis - material - fact: "2024년 2분기 영업이익 증가세를 기록할 것으로 예상됨"
+8. analysis - material - opinion: "재료가 하나둘 붙어주는 양상이 긍정적임"
+9. analysis - public - fact: "SK텔레콤의 목표주가는 70,000원으로 유지됨"
+10. analysis - public - opinion: "장/단기 주가 상승 기대감이 높아질 것으로 판단됨"
+11. sector_indicators: "KOSPI 지수는 2,860.92pt이며, SK텔레콤의 시가총액은 11,233.5십억원임"
+
+12. events - category: 자본/재무
+13. events - type: 발표
+14. events - timestamp: 2024년07월16일
+15. events - description: "2024년 2분기 연결 영업이익과 관련된 실적 발표"
+16. events - source_quote: "24년2분기연결영업이익YoY15%증가한5,329억원으로컨센서스상회할것"
+17. events - market_impact - short_term: 높음
+18. events - market_impact - mid_term: 중간
+19. events - market_impact - long_term: 낮음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: "영업이익 증가로 인한 매출 성장 효과 발생 예상"
+22. events - derived_effects - indirect: "경쟁력 강화 및 시장 점유율 확대 가능성 있음"
+23. events - derived_effects - risks: "물가 상승 여파 지속 가능성 존재"
+24. events - related_events - preceding: 없음
+25. events - related_events – subsequent : SK그룹 지배구조 개편 관련 후속 이벤트 발생 확률 높음
+26. events – related_events – related_impact : 다른 통신사들에 대한 경쟁 압박 증가 가능성 있음
+2025-03-27 18:54:33,829 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:54:33,835 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:54:33,835 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:54:33,835 - root - INFO - 보고서 분석 완료: 2Q_프리뷰__실적_예상보다_좋고_스토리_나오_SK텔레콤_하나증권_표지_24.07.16.pdf
+2025-03-27 18:54:33,835 - root - INFO - 보고서 분석 중: 14/26 - 2Q_리뷰__실적재료_겸비_결국_주가는_오를_SK텔레콤_하나증권_표지_24.08.07.pdf
+2025-03-27 18:54:33,835 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:54:33,835 - ragflow_analyzer - INFO - 파일명: 2Q_리뷰__실적재료_겸비_결국_주가는_오를_SK텔레콤_하나증권_표지_24.08.07.pdf
+2025-03-27 18:54:33,835 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:54:33,835 - ragflow_analyzer - INFO - 작성기관: 하나증권
+2025-03-27 18:54:33,835 - ragflow_analyzer - INFO - 작성일: 2024-08-07
+2025-03-27 18:54:33,879 - ragflow_analyzer - INFO - === 문서 청크 수: 9 ===
+2025-03-27 18:54:33,889 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:54:43,367 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:54:43,367 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:54:43,367 - ragflow_analyzer - INFO - 1. investment_point - key_points: "주주이익환원수익율로 평가하면 여전히 과도한 저평가 상태"
+2. investment_point - reasonings: "2024년 상반기 우수한 실적 달성으로 2024년 연간 연결 영업이익 감소 가능성이 낮아졌으며, 5G 순증 가입자 감소 우려보단 2025년 이후 요금제 개편 기대감이 높아질 수 있는 시점"
+3. analysis - figure - fact: "2024년 2분기 연결 영업이익 5,375억원 (+16% YoY, +8% QoQ)"
+4. analysis - figure - opinion: "2024년 연결 영업이익 증가 가능성이 높아짐"
+5. analysis - nonfigure - fact: "비용 측면에서 당초 예상보다 더 양호한 모습"
+6. analysis - nonfigure - opinion: "SK그룹 지배구조 개편 작업이 본격화되고 있어 SKT 주가 상승 기대감이 높아질 것"
+7. analysis - material - fact: "2분기 어닝 서프라이즈로 인해 2024년 연간 연결 영업이익 증가 가능성이 높아졌다"
+8. analysis - material - opinion: "이번 분기 실적 발표로 인해 주가에 긍정적 영향 예상"
+9. analysis - public - fact: "현재 주가는 51,800원이며 목표주가는 70,000원으로 설정됨"
+10. analysis - public - opinion: "지속적인 매수 전략 필요성 강조"
+11. sector_indicators: "KOSPI 지수 2,522.15pt, 시가총액 비중 0.54%"
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 2024년 8월
+15. events - description: "SK텔레콤의 2분기 실적 발표 및 향후 전망 제시"
+16. events - source_quote: "어닝서프라이즈였는데 최근 프리뷰 시즌에 급상승한 컨센서스(영업이익5,180억원)를 감안해도 그렇다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: "연결 영업이익 증가 예상 (1,781억원)"
+22. events - derived_effects - indirect: "시장 점유율 증가 및 경쟁력 강화 기대"
+23. events - derived_effects - risks: "경기 둔화 우려 및 금리 하향 기조의 불확실성"
+24. events - related_events - preceding: 없음
+25. events - related_events – subsequent : “추가적인 배당금 유지와 관련된 결정 (발생 확률 중간)”
+26.events – related_events – related_impact : “통신 서비스 업종 전반에 긍정적인 영향”
+2025-03-27 18:54:43,367 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:54:43,373 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:54:43,373 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:54:43,373 - root - INFO - 보고서 분석 완료: 2Q_리뷰__실적재료_겸비_결국_주가는_오를_SK텔레콤_하나증권_표지_24.08.07.pdf
+2025-03-27 18:54:43,373 - root - INFO - 보고서 분석 중: 15/26 - 4Q_프리뷰__차라리_잘_되었다고_봅니다_SK텔레콤_하나증권_표지_25.01.10.pdf
+2025-03-27 18:54:43,373 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:54:43,373 - ragflow_analyzer - INFO - 파일명: 4Q_프리뷰__차라리_잘_되었다고_봅니다_SK텔레콤_하나증권_표지_25.01.10.pdf
+2025-03-27 18:54:43,373 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:54:43,373 - ragflow_analyzer - INFO - 작성기관: 하나증권
+2025-03-27 18:54:43,373 - ragflow_analyzer - INFO - 작성일: 2025-01-10
+2025-03-27 18:54:43,416 - ragflow_analyzer - INFO - === 문서 청크 수: 8 ===
+2025-03-27 18:54:43,426 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:54:52,284 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:54:52,284 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:54:52,284 - ragflow_analyzer - INFO - 1. investment_point - key_points: "4분기 실적 부진에도 불구하고 SK텔레콤의 매수 기회"
+2. investment_point - reasonings: "2024년 4분기 어닝쇼크가 예상되지만, 일회성 비용으로 인한 것이며, 2025년 영업이익 성장이 전망됨."
+3. analysis - figure - fact: "2024년 4분기 연결 영업이익은 2,419억원으로 컨센서스를 하회할 전망."
+4. analysis - figure - opinion: "2025년 영업이익은 2,023.5억원으로 증가할 것으로 예상됨."
+5. analysis - nonfigure - fact: "현재 기대 배당 수익률은 6.9%에 달함."
+6. analysis - nonfigure - opinion: "시중 금리 인하 추세와 함께 SK텔레콤의 투자 매력도가 높아질 것으로 판단됨."
+7. analysis - material - fact: "2024년 4분기에 대규모 희망퇴직 비용 반영이 예상됨."
+8. analysis - material - opinion: "일회성 비용 반영으로 인해 단기적으로 주가 하락 가능성이 있지만, 장기적으로는 긍정적인 영향을 미칠 것으로 보임."
+9. analysis - public - fact: "SK텔레콤의 시가총액은 11,877.9억원이며, 외국인 지분율은 42.10%임."
+10. analysis - public - opinion: "외국인 투자자들의 지속적인 관심이 SK텔레콤 주가에 긍정적인 영향을 미칠 것으로 예상됨."
+11. sector_indicators: "KOSPI 지수는 2,521.90pt이며, SK텔레콤의 발행주식수는 214,790천주임."
+
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 2025년 1월 (예상)
+15. events - description: "SK텔레콤의 2024년 4분기 연결 영업이익 발표"
+16. events - source_quote: "연결영업이익이2,419억원(-19% YoY)으로컨센서스(연결영업이익3,453억원)를크게하회하는부진한실적을기록할전망이다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 낮음
+20. events - market_impact - severity: 중간
+21. events - derived_effects - direct: "영업이익 감소"
+22. events - derived_effects - indirect: "시장 점유율 감소 가능성"
+23. events - derived_effects - risks: "일회성 비용 증가로 인한 재무 부담"
+24. events - related_events - preceding: 없음
+25. events - related_events – subsequent : “2025년 영업 이익 성장” (발생 확률 높음)
+26.events – related_events – related_impact : “통신 산업 전반에 긍정적 영향”
+2025-03-27 18:54:52,285 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:54:52,291 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:54:52,291 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:54:52,291 - root - INFO - 보고서 분석 완료: 4Q_프리뷰__차라리_잘_되었다고_봅니다_SK텔레콤_하나증권_표지_25.01.10.pdf
+2025-03-27 18:54:52,291 - root - INFO - 보고서 분석 중: 16/26 - 6월_전략__주주이익환원_정책_신뢰_회복될__SK텔레콤_하나증권_표지_24.05.30.pdf
+2025-03-27 18:54:52,291 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:54:52,291 - ragflow_analyzer - INFO - 파일명: 6월_전략__주주이익환원_정책_신뢰_회복될__SK텔레콤_하나증권_표지_24.05.30.pdf
+2025-03-27 18:54:52,291 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:54:52,291 - ragflow_analyzer - INFO - 작성기관: 하나증권
+2025-03-27 18:54:52,291 - ragflow_analyzer - INFO - 작성일: 2024-05-30
+2025-03-27 18:54:52,339 - ragflow_analyzer - INFO - === 문서 청크 수: 10 ===
+2025-03-27 18:54:52,348 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:55:03,584 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:55:03,585 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:55:03,585 - ragflow_analyzer - INFO - 1. investment_point - key_points: "2023년에 이어 2024년에도 가장 안정적인 실적 흐름을 이어나가고 있다."
+2. investment_point - reasonings: "기대 배당 수익률이 7%, 주주 이익 환원 수익률이 9%에 달한다."
+3. analysis - figure - fact: "2024년 매출액은 17,953.0십억원, 영업이익은 1,817.4십억원, 순이익은 1,234.3십억원이다."
+4. analysis - figure - opinion: "2025년 매출액은 18,301.0십억원으로 예상된다."
+5. analysis - nonfigure - fact: "SKT는 연결 실적 기준 순이익의 50% 이상을 배당하겠다는 중장기 배당 정책을 발표하였다."
+6. analysis - nonfigure - opinion: "자사주 매입/소각에 대한 기대감으로 외국인들이 순매수로 전환할 가능성이 있다."
+7. analysis - material - fact: "최근 SKT는 자사주 매입 전망을 밝혔다."
+8. analysis - material - opinion: "올해 자사주 매입/소각이 이루어질 공산이 크다고 판단된다."
+9. analysis - public - fact: "외국인지분율은 41.74%이다."
+10. analysis - public - opinion: "낮아진 외국인지분율이 오히려 호재로 작용할 수 있다."
+11. sector_indicators: "KOSPI 지수는 2,677.30pt이며, 시가총액 비중은 0.51%이다."
+
+12. events - category: 자본/재무
+13. events - type: 발표
+14. events - timestamp: 발생 시점 (2024년)
+15. events - description: "연결 실적 기준 순이익의 50% 이상을 배당하겠다는 중장기 배당 정책 발표"
+16. events - source_quote: "최근 SKT는 연결실적 기준 순이익의 50% 이상을 배당하겠다는 중장기 배당정책을 발표하였다."
+17. events - market_impact - short_term: 높음
+18. events - market_impact - mid_term: 중간
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: 직접적 효과 없음
+22. events - derived_effects - indirect: 시장 점유율 증가 가능성
+23. events - derived_effects - risks: 이익 정체 위험 요소 존재
+24. events - related_events - preceding: 이전 자사주 매입 관련 이벤트
+25. events - related_events – subsequent : 추가 자사주 매입 계획 (발생 확률 높음)
+26.events – related_events – related_impact : 통신 산업 전반에 긍정적인 영향
+2025-03-27 18:55:03,585 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:55:03,591 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:55:03,591 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:55:03,591 - root - INFO - 보고서 분석 완료: 6월_전략__주주이익환원_정책_신뢰_회복될__SK텔레콤_하나증권_표지_24.05.30.pdf
+2025-03-27 18:55:03,591 - root - INFO - 보고서 분석 중: 17/26 - 1Q_프리뷰__전년도와_비슷한_수준의_실적_달_SK텔레콤_하나증권_표지_24.04.11.pdf
+2025-03-27 18:55:03,591 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:55:03,591 - ragflow_analyzer - INFO - 파일명: 1Q_프리뷰__전년도와_비슷한_수준의_실적_달_SK텔레콤_하나증권_표지_24.04.11.pdf
+2025-03-27 18:55:03,591 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:55:03,591 - ragflow_analyzer - INFO - 작성기관: 하나증권
+2025-03-27 18:55:03,591 - ragflow_analyzer - INFO - 작성일: 2024-04-11
+2025-03-27 18:55:03,635 - ragflow_analyzer - INFO - === 문서 청크 수: 8 ===
+2025-03-27 18:55:03,647 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:55:12,016 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:55:12,016 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:55:12,016 - ragflow_analyzer - INFO - 1. investment_point - key_points: "SK텔레콤에 대한 투자의견 매수, 12개월 목표가 7만원 유지"
+2. investment_point - reasonings: "주주이익환원수익률이 9%에 육박해 절대 저평가된 상황"
+3. analysis - figure - fact: "2024년 1분기 연결 영업이익 4,938억원 (-0% YoY, +63% QoQ)"
+4. analysis - figure - opinion: "2024년 영업이익은 1,696억원으로 예상"
+5. analysis - nonfigure - fact: "자사주 취득 및 소각 예정으로 수급 강화 예상"
+6. analysis - nonfigure - opinion: "4월 총선 이후 요금 규제 우려가 점차 줄어들 것"
+7. analysis - material - fact: "2024년 1분기 실적 발표 예정"
+8. analysis - material - opinion: "실적 우려가 줄어들 것으로 판단됨"
+9. analysis - public - fact: "현재 주가는 51,800원이며 목표가는 70,000원"
+10. analysis - public - opinion: "현 주가 대비 약 30% 상승 가능성 있음"
+11. sector_indicators: "KOSPI 지수는 2,705.16pt로 시가총액은 11,126.1억원"
+
+12. events - category: 자본/재무
+13. events - type: 계획
+14. events - timestamp: 예상 시점 (2024년)
+15. events - description: "대규모 자사주 취득 및 소각 예정"
+16. events - source_quote: "지난해에 이어 올해도 대규모 자사주 취득 및 소각 예정이라 수급 강화가 예상된다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 중간
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: 매출 증가
+22. events - derived_effects - indirect: 시장 점유율 증가
+23. events - derived_effects - risks: 이익 모멘텀 부재
+24. events - related_events - preceding: 이전 분기 실적 발표
+25. events - related_events – subsequent : 후속 실적 발표 (발생 확률 높음)
+26. events – related_events – related_impact : 통신 업종 전반에 긍정적인 영향
+2025-03-27 18:55:12,016 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:55:12,021 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:55:12,022 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:55:12,022 - root - INFO - 보고서 분석 완료: 1Q_프리뷰__전년도와_비슷한_수준의_실적_달_SK텔레콤_하나증권_표지_24.04.11.pdf
+2025-03-27 18:55:12,022 - root - INFO - 보고서 분석 중: 18/26 - 1월_전략__연초_주가_흐름은_양호할_전망_SK텔레콤_하나증권_표지_25.01.03.pdf
+2025-03-27 18:55:12,022 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:55:12,022 - ragflow_analyzer - INFO - 파일명: 1월_전략__연초_주가_흐름은_양호할_전망_SK텔레콤_하나증권_표지_25.01.03.pdf
+2025-03-27 18:55:12,022 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:55:12,022 - ragflow_analyzer - INFO - 작성기관: 하나증권
+2025-03-27 18:55:12,022 - ragflow_analyzer - INFO - 작성일: 2025-01-03
+2025-03-27 18:55:12,071 - ragflow_analyzer - INFO - === 문서 청크 수: 10 ===
+2025-03-27 18:55:12,083 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:55:30,780 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:55:30,780 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:55:30,780 - ragflow_analyzer - INFO - 1. investment_point - key_points: "2025년 2월 발표될 2024년 연간 마감 실적이 양호할 전망"
+2. investment_point - reasonings: "보수적으로 봐도 2024년 연결 영업이익 증가폭은 5~6% 달할 것으로 예상된다."
+3. analysis - figure - fact: "2024년 매출액(십억원): 17,987.5"
+4. analysis - figure - opinion: "2025년 영업이익(십억원) 예상: 2,024.1"
+5. analysis - nonfigure - fact: "SK텔레콤의 주가는 연초에도 상승 추세를 유지할 가능성이 높다."
+6. analysis - nonfigure - opinion: "신규 주파수 경매 및 새로운 5G 요금제 출시 기대감으로 인해 주가 상승 가능성이 있다."
+7. analysis - material - fact: "2024년 SKT 연간 실적은 양호하게 발표될 전망이다."
+8. analysis - material - opinion: "2026년까지 SKT 주가가 계단식 상승을 나타낼 공산이 크다."
+9. analysis - public - fact: "현재주가(1월 2일): 56,100원, 목표주가(12개월): 70,000원"
+10. analysis - public - opinion: "기대 배당 수익률로 보면 55,000원 수준에서는 강한 주가 하방 경직성을 보일 것으로 판단된다."
+11. sector_indicators: "KOSPI 지수(pt): 2,398.94; 시가총액(십억원): 12,049.7; 외국인지분율(%): 42.01"
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 예상 시점 (2025년 2월)
+15. events - description: "2024년 연간 마감 실적 발표"
+16. events - source_quote: "2025년 2월 발표될 2024년 연간 마감 실적이 양호할 전망"
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: 영업이익 증가
+22. events - derived_effects - indirect: 시장 점유율 확대
+23. events - derived_effects - risks: 이익 감소 리스크는 크지 않음
+24. events - related_events - preceding: 이전 분기 실적 발표
+25. events - related_events – subsequent : 후속 신규 요금제 출시 (발생 확률 중간)
+26.events – related_events – related_impact : 경쟁사 KT/LGU+에 미치는 영향
+2025-03-27 18:55:30,780 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:55:30,786 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:55:30,786 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:55:30,786 - root - INFO - 보고서 분석 완료: 1월_전략__연초_주가_흐름은_양호할_전망_SK텔레콤_하나증권_표지_25.01.03.pdf
+2025-03-27 18:55:30,786 - root - INFO - 보고서 분석 중: 19/26 - 3월_전략__저_PBR_사실거면_SKT가_안전합니_SK텔레콤_하나증권_표지_24.02.27.pdf
+2025-03-27 18:55:30,786 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:55:30,786 - ragflow_analyzer - INFO - 파일명: 3월_전략__저_PBR_사실거면_SKT가_안전합니_SK텔레콤_하나증권_표지_24.02.27.pdf
+2025-03-27 18:55:30,786 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:55:30,786 - ragflow_analyzer - INFO - 작성기관: 하나증권
+2025-03-27 18:55:30,786 - ragflow_analyzer - INFO - 작성일: 2024-02-27
+2025-03-27 18:55:30,830 - ragflow_analyzer - INFO - === 문서 청크 수: 10 ===
+2025-03-27 18:55:30,839 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:55:39,580 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:55:39,580 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:55:39,581 - ragflow_analyzer - INFO - 1. investment_point - key_points: "12개월 목표가 60,000원을 유지하며 SK텔레콤을 통신서비스 섹터의 Top Pick으로 제시"
+2. investment_point - reasonings: "주주이익환원 비율이 8%에 달해 투자 매력도가 높고, 배당금 규모가 유지될 가능성이 높음"
+3. analysis - figure - fact: "2024년 매출액 예상 17,889.2억원, 영업이익 1,825.4억원"
+4. analysis - figure - opinion: "2025년 이후 CAPEX 증가세로 전환할 전망"
+5. analysis - nonfigure - fact: "SK텔레콤은 현금흐름의 30~40%를 배당으로 지급하고 있음"
+6. analysis - nonfigure - opinion: "2026년부터 현금흐름 개선이 이루어질 것으로 판단됨"
+7. analysis - material - fact: "SK텔레콤은 주주이익 환원 관련하여 이미 많은 금액을 사용하고 있음"
+8. analysis - material - opinion: "더 이상의 배당/자사주규모 증가를 기대하기 어려움"
+9. analysis - public - fact: "현재 SK텔레콤의 시가총액은 11,362.4억원이며 외국인지분율은 42.90%"
+10. analysis - public - opinion: "시중금리가 4~5% 수준임을 감안할 때 여전히 매력적인 기대배당수익률을 제공할 것임"
+11. sector_indicators: "KOSPI 지수는 2,647.08pt이며 SK텔레콤의 PBR은 0.94로 저평가 상태임"
+
+12. events - category: 자본/재무
+13. events - type: 발표
+14. events - timestamp: 2024-02-27
+15. events - description: "하나증권에서 SK텔레콤에 대한 투자 의견을 매수로 유지하고 목표 주가를 제시함."
+16. events - source_quote: "목표주가(12M)60,000원 현재주가(2월26일)52,900원"
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 중간
+20. events - market_impact - severity: 중간
+21. events - derived_effects - direct: 직접적 효과 없음
+22. events - derived_effects - indirect: 시장점유율 증가 가능성
+23. events - derived_effects - risks: 주가 상승 부진 위험 요소 존재
+24. events - related_events - preceding: 이전 분기 실적 발표 
+25. events - related_events – subsequent : 후속 M&A 계획 발표 (발생 확률 낮음)
+26.events – related_events – related_impact : 국내 통신사 전체에 긍정적 영향
+2025-03-27 18:55:39,581 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:55:39,586 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:55:39,586 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:55:39,586 - root - INFO - 보고서 분석 완료: 3월_전략__저_PBR_사실거면_SKT가_안전합니_SK텔레콤_하나증권_표지_24.02.27.pdf
+2025-03-27 18:55:39,586 - root - INFO - 보고서 분석 중: 20/26 - 1Q_리뷰__과도한_저평가_수급_개선되며_주_SK텔레콤_하나증권_표지_24.05.09.pdf
+2025-03-27 18:55:39,586 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:55:39,586 - ragflow_analyzer - INFO - 파일명: 1Q_리뷰__과도한_저평가_수급_개선되며_주_SK텔레콤_하나증권_표지_24.05.09.pdf
+2025-03-27 18:55:39,586 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:55:39,586 - ragflow_analyzer - INFO - 작성기관: 하나증권
+2025-03-27 18:55:39,586 - ragflow_analyzer - INFO - 작성일: 2024-05-09
+2025-03-27 18:55:39,630 - ragflow_analyzer - INFO - === 문서 청크 수: 9 ===
+2025-03-27 18:55:39,640 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:55:50,044 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:55:50,044 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:55:50,044 - ragflow_analyzer - INFO - 1. investment_point - key_points: "자사주 매입/소각과 7%의 기대 배당 수익률로 장기 및 단기 투자 매력도가 높다."
+2. investment_point - reasonings: "2024년 연결 영업이익 감소폭이 크지 않을 전망이며, 차세대 요금제 출시를 통해 2025년 매출 성장 가능성이 있다."
+3. analysis - figure - fact: "2024년 1분기 연결 영업이익 4,985억원(+1% YoY, +67% QoQ)으로 컨센서스에 부합하였다."
+4. analysis - figure - opinion: "향후 6개월 이내 주가가 65,000원으로 상승할 것으로 예상된다."
+5. analysis - nonfigure - fact: "하반기 이후 규제 상황의 점진적인 개선 추세가 나타날 전망이다."
+6. analysis - nonfigure - opinion: "자사주 매입에 따른 수급 개선이 이루어질 것으로 보인다."
+7. analysis - material - fact: "2024년 1분기 실적 발표에서 SK텔레콤은 영업이익률 11.1%를 기록하였다."
+8. analysis - material - opinion: "향후 자사주 매입과 배당 유지로 인해 주가 상승을 기대할 수 있다."
+9. analysis - public - fact: "현재 SK텔레콤의 시가총액은 11,018.7억원이다."
+10. analysis - public - opinion: "현재 주가는 바닥 수준으로 판단되며, 배당 투자 매력이 높아질 것이다."
+11. sector_indicators: "KOSPI 지수는 2,745.05pt이며, 통신 서비스 업종에서 SK텔레콤은 Top Pick으로 제시된다."
+
+12. events - category: 자본/재무
+13. events - type: 발표
+14. events - timestamp: 2024년 5월
+15. events - description: "SK텔레콤은 자사주 매입 및 소각을 지속하며 높은 배당 수익률을 유지할 계획이다."
+16. events - source_quote: "올해도 전년도 DPS 유지와 동시에 자사주매입/소각이 이루어질 전망이다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: "연간 자사주 매입 규모는 약 2천억원에 달한다."
+22. events - derived_effects - indirect: "배당 수익률 증가로 인해 투자자들의 신뢰도가 향상될 것이다."
+23. events - derived_effects - risks: "규제 변화나 시장 경쟁 심화로 인한 리스크가 존재한다."
+24. events - related_events - preceding: 없음
+25. events - related_events – subsequent : “차세대 요금제 출시 (발생 확률 : 높음)”
+26.events – related_events – related_impact : “경쟁 통신사의 시장 점유율 변화”
+2025-03-27 18:55:50,044 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:55:50,049 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:55:50,049 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:55:50,049 - root - INFO - 보고서 분석 완료: 1Q_리뷰__과도한_저평가_수급_개선되며_주_SK텔레콤_하나증권_표지_24.05.09.pdf
+2025-03-27 18:55:50,049 - root - INFO - 보고서 분석 중: 21/26 - 4Q_리뷰__주주이익환원_규모로_보면_대장주_SK텔레콤_하나증권_표지_24.02.06.pdf
+2025-03-27 18:55:50,049 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:55:50,049 - ragflow_analyzer - INFO - 파일명: 4Q_리뷰__주주이익환원_규모로_보면_대장주_SK텔레콤_하나증권_표지_24.02.06.pdf
+2025-03-27 18:55:50,049 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:55:50,050 - ragflow_analyzer - INFO - 작성기관: 하나증권
+2025-03-27 18:55:50,050 - ragflow_analyzer - INFO - 작성일: 2024-02-06
+2025-03-27 18:55:50,093 - ragflow_analyzer - INFO - === 문서 청크 수: 9 ===
+2025-03-27 18:55:50,102 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:56:01,660 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:56:01,660 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:56:01,660 - ragflow_analyzer - INFO - 1. investment_point - key_points: "통신3사 중 유일하게 DPS 증가가 나타났고, 주주이익환원비율로 평가하면 국내 어느 상장사와 비교해도 뒤지지 않는다."
+2. investment_point - reasonings: "시가총액 대비 연간 주주 이익 환원 규모가 9%에 달하며, DPS는 2022년 3,320원에서 2023년 3,540원으로 증가하였다."
+3. analysis - figure - fact: "2023년 연결 영업이익은 2,971억원(+17% YoY, -40% QoQ)으로 컨센서스를 상회하였다."
+4. analysis - figure - opinion: "2024년도 실적 전망은 SKT 역시 낙관적이지 않다."
+5. analysis - nonfigure - fact: "SK텔레콤은 단기 실적 전망이 밝다고 볼 수 없지만 장기 실적 향상 추세가 유지될 전망이다."
+6. analysis - nonfigure - opinion: "뚜렷한 대안이 없다면 중/장기 SKT 보유는 나쁘지 않을 것이다."
+7. analysis - material - fact: "2023년 4분기 SKT의 이동전화 매출액은 전분기 수준을 유지했지만 전년 동기 대비로는 1% 증가하였다."
+8. analysis - material - opinion: "단기 실적 전망이 밝지 않지만 규제 상황에도 불구하고 강한 하방 경직성이 확보될 것으로 예상된다."
+9. analysis - public - fact: "현재 외국인 지분율은 41.66%이며 주요 주주로는 SK 외 12인이 30.04%, 국민연금공단이 7.67%를 차지하고 있다."
+10. analysis - public - opinion: "최근 주주 이익 환원 관점에서 PBR 관련주가 주목받고 있으며, 실질 주주 이익 환원 비율 및 증감에 관심을 높일 필요가 있다."
+11. sector_indicators: "KOSPI 지수는 2,591.31pt이며 시가총액은 11,029.2억원이다."
+
+12. events - category: 자본/재무
+13. events - type: 발표
+14. events - timestamp: 발생 시점 (2024-02-06)
+15. events - description: "SK텔레콤의 주주 이익 환원 규모와 관련된 정보 발표"
+16. events - source_quote: "매수/TP 6만원 유지, 통신서비스 섹터 Top Pick으로 제시한다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: "영업이익 증가"
+22. events - derived_effects - indirect: "시장 점유율 확대"
+23. events - derived_effects - risks: "규제 환경 악화"
+24. events - related_events - preceding: 없음
+25. events - related_events – subsequent : “5G Advanced 도입” (발생 확률 중간)
+26.events – related_events – related_impact : “통신 서비스 산업 전반에 긍정적인 영향”
+2025-03-27 18:56:01,660 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:56:01,665 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:56:01,665 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:56:01,665 - root - INFO - 보고서 분석 완료: 4Q_리뷰__주주이익환원_규모로_보면_대장주_SK텔레콤_하나증권_표지_24.02.06.pdf
+2025-03-27 18:56:01,665 - root - INFO - 보고서 분석 중: 22/26 - 4Q_기대치_부합3사_중_유일하게_23년_이익__SK텔레콤_하나증권_표지_24.01.23.pdf
+2025-03-27 18:56:01,665 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:56:01,665 - ragflow_analyzer - INFO - 파일명: 4Q_기대치_부합3사_중_유일하게_23년_이익__SK텔레콤_하나증권_표지_24.01.23.pdf
+2025-03-27 18:56:01,665 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:56:01,666 - ragflow_analyzer - INFO - 작성기관: 하나증권
+2025-03-27 18:56:01,666 - ragflow_analyzer - INFO - 작성일: 2024-01-23
+2025-03-27 18:56:01,708 - ragflow_analyzer - INFO - === 문서 청크 수: 8 ===
+2025-03-27 18:56:01,718 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:56:10,912 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:56:10,912 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:56:10,912 - ragflow_analyzer - INFO - 1. investment_point - key_points: "4분기 실적이 컨센서스에 부합함과 동시에 2023년 연결 영업이익이 통신 3사 중 유일하게 증가 전환할 것으로 예상됨."
+2. investment_point - reasonings: "2023년 4분기 연결 영업이익 2,823억원(+11% YoY, -43% QoQ)으로 컨센서스(영업이익 2,889억원)에 부합할 전망."
+3. analysis - figure - fact: "2023년 4분기 연결 영업이익 2,823억원."
+4. analysis - figure - opinion: "2024년 연결 영업이익은 1,841.2억원으로 예상됨."
+5. analysis - nonfigure - fact: "자회사 이익 기여도 및 배당금 유입 증가로 배당 유지가 예상됨."
+6. analysis - nonfigure - opinion: "5G Advanced 도입 기대감으로 인해 SKT가 다시 대세 상승기로 진입할 수 있을 것임."
+7. analysis - material - fact: "SK텔레콤은 통신 3사 중 유일하게 연간 이익 증가를 나타낼 것으로 판단됨."
+8. analysis - material - opinion: "실적 시즌 투자자들로부터 나쁘지 않은 평가를 받을 것으로 예상됨."
+9. analysis - public - fact: "현재 주가는 49,450원이며 목표주가는 60,000원으로 유지됨."
+10. analysis - public - opinion: "장기 매수 추천을 통해 주가 하방 경직성이 나타날 것으로 보임."
+11. sector_indicators: "KOSPI 지수는 2,464.35pt이며 시가총액은 10,821.3억원임."
+
+12. events - category: 자본/재무
+13. events - type: 발표
+14. events - timestamp: 2024년01월23일
+15. events - description: "2023년 연간 연결 영업이익 증가 전망 발표"
+16. events - source_quote: "2023년 연간으로 연결 영업이익이 증가하는 모습을 보여줄 전망이다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: "연결 영업이익 증가"
+22. events - derived_effects - indirect: "투자자 신뢰도 향상"
+23. events - derived_effects - risks: "규제 환경 악화 가능성"
+24. events - related_events - preceding: 없음
+25. events - related_events – subsequent : 자사주 매입 지속 가능성 (발생 확률 높음)
+26. events – related_events – related_impact : 경쟁사 실적 부진에 따른 시장 점유율 변화
+2025-03-27 18:56:10,912 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:56:10,917 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:56:10,917 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:56:10,917 - root - INFO - 보고서 분석 완료: 4Q_기대치_부합3사_중_유일하게_23년_이익__SK텔레콤_하나증권_표지_24.01.23.pdf
+2025-03-27 18:56:10,917 - root - INFO - 보고서 분석 중: 23/26 - 1월 전략  연초 주가 흐름은 양호할 전망_SK텔레콤_하나증권_표지_25.01.03.pdf
+2025-03-27 18:56:10,918 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:56:10,918 - ragflow_analyzer - INFO - 파일명: 1월 전략  연초 주가 흐름은 양호할 전망_SK텔레콤_하나증권_표지_25.01.03.pdf
+2025-03-27 18:56:10,918 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:56:10,918 - ragflow_analyzer - INFO - 작성기관: 하나증권
+2025-03-27 18:56:10,918 - ragflow_analyzer - INFO - 작성일: 2025-01-03
+2025-03-27 18:56:10,963 - ragflow_analyzer - INFO - === 문서 청크 수: 10 ===
+2025-03-27 18:56:10,973 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:56:20,170 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:56:20,170 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:56:20,170 - ragflow_analyzer - INFO - 1. investment_point - key_points: "2025년 2월 발표될 2024년 연간 마감 실적이 양호할 전망"
+2. investment_point - reasonings: "보수적으로 봐도 2024년 연결 영업이익 증가폭은 5~6% 달할 것으로 예상된다."
+3. analysis - figure - fact: "2024년 매출액(십억원): 17,987.5"
+4. analysis - figure - opinion: "2025년 영업이익(십억원)은 2,024.1로 예상된다."
+5. analysis - nonfigure - fact: "SK텔레콤의 주가는 연초에도 상승 추세를 유지할 가능성이 높다."
+6. analysis - nonfigure - opinion: "신규 주파수 경매 및 새로운 5G 요금제 출시 기대감으로 인해 SK텔레콤의 주가는 상승할 것이다."
+7. analysis - material - fact: "2024년 1분기 실적이 그리 좋지 않았던 영향이 크다."
+8. analysis - material - opinion: "최소한 2025년 1분기 실적이 발표될 때까지 SK텔레콤에 대한 실적 우려가 크지 않을 것이다."
+9. analysis - public - fact: "현재주가(1월 2일): 56,100원"
+10. analysis - public - opinion: "65,000원까지 상승 시도할 가능성이 높아 보인다."
+11. sector_indicators: "KOSPI 지수(pt): 2,398.94; 시가총액(십억원): 12,049.7; 외국인지분율(%): 42.01"
+
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 2025년 2월
+15. events - description: "2024년 연간 마감 실적 발표"
+16. events - source_quote: "2025년 2월 발표될 2024년 연간 마감 실적이 양호할 전망"
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 중간
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: 영업이익 증가 예상 (5~6%)
+22. events - derived_effects - indirect: 시장 점유율 확대 가능성
+23. events - derived_effects - risks: 이익 감소 리스크는 크지 않음
+24. events - related_events - preceding: 이전 분기 실적 발표
+25. events - related_events – subsequent : 후속 신규 서비스 출시 (발생 확률 높음)
+26.events – related_events – related_impact : 경쟁사 KT/LGU+에 미치는 영향
+2025-03-27 18:56:20,170 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:56:20,175 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:56:20,175 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:56:20,175 - root - INFO - 보고서 분석 완료: 1월 전략  연초 주가 흐름은 양호할 전망_SK텔레콤_하나증권_표지_25.01.03.pdf
+2025-03-27 18:56:20,175 - root - INFO - 보고서 분석 중: 24/26 - 3Q_프리뷰__이번에도_우수한_실적_기록할_전_SK텔레콤_하나증권_표지_24.10.08.pdf
+2025-03-27 18:56:20,175 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:56:20,176 - ragflow_analyzer - INFO - 파일명: 3Q_프리뷰__이번에도_우수한_실적_기록할_전_SK텔레콤_하나증권_표지_24.10.08.pdf
+2025-03-27 18:56:20,176 - ragflow_analyzer - INFO - 회사명: SK텔레콤
+2025-03-27 18:56:20,176 - ragflow_analyzer - INFO - 작성기관: 하나증권
+2025-03-27 18:56:20,176 - ragflow_analyzer - INFO - 작성일: 2024-10-08
+2025-03-27 18:56:20,218 - ragflow_analyzer - INFO - === 문서 청크 수: 8 ===
+2025-03-27 18:56:20,227 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:56:28,075 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:56:28,075 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:56:28,075 - ragflow_analyzer - INFO - 1. investment_point - key_points: "3분기에도 시장기대치에 부합하는 양호한 실적을 기록할 전망"
+2. investment_point - reasonings: "2024년 3분기 연결 영업이익 5,207억원(+5% YoY, -3% QoQ)으로 컨센서스(영업이익 5,224억원)에 부합할 전망"
+3. analysis - figure - fact: "2024년 3분기 연결 영업이익 5,207억원"
+4. analysis - figure - opinion: "2024년에도 영업이익 성장이 유력할 것으로 예상"
+5. analysis - nonfigure - fact: "국내외 통신시장 환경에서 규제환경 개선 추세가 나타날 것으로 판단"
+6. analysis - nonfigure - opinion: "장기 이익 성장 기대감과 저평가 인식 확산 가능성"
+7. analysis - material - fact: "2024년 3분기 연결 영업이익은 전년 동기 대비 +5% 증가할 것으로 예상됨"
+8. analysis - material - opinion: "이번 분기도 양호한 실적이라는 평가를 받을 것이라고 판단됨"
+9. analysis - public - fact: "SK텔레콤의 목표주가는 70,000원으로 유지됨"
+10. analysis - public - opinion: "현재 주가보다 낮게 형성될 가능성은 낮다고 판단됨"
+11. sector_indicators: "KOSPI 지수 2,610.38pt, 시가총액 비중 0.57%"
+12. events - category: 실적
+13. events - type: 발표
+14. events - timestamp: 2024년 10월
+15. events - description: "2024년 3분기 연결 영업이익 발표 예정"
+16. events - source_quote: "2024년 3분기에 연결 영업이익이 5,207억원으로 컨센서스에 부합할 전망이다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: "영업이익 증가로 인한 매출 상승 효과"
+22. events - derived_effects - indirect: "시장 점유율 확대 및 브랜드 가치 상승 가능성"
+23. events - derived_effects - risks: "경쟁 심화 및 규제 변화에 따른 리스크 존재"
+24. events - related_events - preceding: 없음
+25. events - related_events – subsequent : “신규 요금제 출시 관련 이벤트 발생 가능성 (발생 확률 중간)”
+26.events – related_events – related_impact : “통신 산업 전반에 긍정적인 영향”
+2025-03-27 18:56:28,075 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:56:28,080 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:56:28,080 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:56:28,080 - root - INFO - 보고서 분석 완료: 3Q_프리뷰__이번에도_우수한_실적_기록할_전_SK텔레콤_하나증권_표지_24.10.08.pdf
+2025-03-27 18:56:28,081 - root - INFO - 보고서 분석 중: 25/26 - 배당가능이익은_걱정하지_마세요_JB금융지주_키움증권_표지_25.02.18.pdf
+2025-03-27 18:56:28,081 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:56:28,081 - ragflow_analyzer - INFO - 파일명: 배당가능이익은_걱정하지_마세요_JB금융지주_키움증권_표지_25.02.18.pdf
+2025-03-27 18:56:28,081 - ragflow_analyzer - INFO - 회사명: JB금융지주
+2025-03-27 18:56:28,081 - ragflow_analyzer - INFO - 작성기관: 키움증권
+2025-03-27 18:56:28,081 - ragflow_analyzer - INFO - 작성일: 2025-02-18
+2025-03-27 18:56:28,129 - ragflow_analyzer - INFO - === 문서 청크 수: 10 ===
+2025-03-27 18:56:28,138 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:56:41,391 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:56:41,391 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:56:41,391 - ragflow_analyzer - INFO - 1. investment_point - key_points: "2025년 목표주주환원율 45% 달성에 충분한 배당가능이익 확보"
+2. investment_point - reasonings: "현재 확보된 2025년 배당가능이익은 3,747억원으로 계획하고 있는 배당과 자기주식매입소각을 진행하기 충분한 규모이다."
+3. analysis - figure - fact: "2025년 연결순이익 7,050억원 예상"
+4. analysis - figure - opinion: "2025년 주주환원율은 45%가 될 것으로 보인다."
+5. analysis - nonfigure - fact: "JB금융의 자회사들은 자본규제비율이 양호하다."
+6. analysis - nonfigure - opinion: "자회사 배당을 통한 지주배당가능이익 확보가 용이할 것으로 판단된다."
+7. analysis - material - fact: "2025년 목표로 하는 주주환원율 45% 달성을 위한 배당가능이익 확보"
+8. analysis - material - opinion: "배당가능이익에 대한 우려는 불필요할 것으로 보인다."
+9. analysis - public - fact: "JB금융의 시가총액은 35,330억원이다."
+10. analysis - public - opinion: "향후 주가는 목표주가인 25,000원에 도달할 가능성이 높다."
+11. sector_indicators: "은행 부문 ROE는 평균적으로 약 12% 수준"
+12. events - category: 자본/재무
+13. events - type: 계획
+14. events - timestamp: 2025년
+15. events - description: "2025년 주주환원율을 위한 배당 및 자기주식매입 소각 계획"
+16. events - source_quote: "2025 년목표연결순이익7,050 억원을달성하면주주환원율은45%가된다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: 매출 증가 및 영업이익 개선 예상
+22. events - derived_effects - indirect: 시장점유율 증가 및 브랜드 가치 상승 기대
+23. events - derived_effects - risks: 외부 경제 상황 변화에 따른 리스크 존재
+24. events - related_events – preceding : 이전 연도 결산배당 결정 
+25. events – related_events – subsequent : 추가적인 자사주 매입 발표 (발생 확률 중간)
+26. events – related_events – related_impact : 다른 금융기관에도 긍정적 영향 미칠 가능성
+2025-03-27 18:56:41,391 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:56:41,397 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:56:41,397 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:56:41,397 - root - INFO - 보고서 분석 완료: 배당가능이익은_걱정하지_마세요_JB금융지주_키움증권_표지_25.02.18.pdf
+2025-03-27 18:56:41,397 - root - INFO - 보고서 분석 중: 26/26 - 실적_양호_주주환원정책_양호_JB금융지주_유안타증권_표지_25.02.07.pdf
+2025-03-27 18:56:41,397 - ragflow_analyzer - INFO - === 문서 정보 ===
+2025-03-27 18:56:41,397 - ragflow_analyzer - INFO - 파일명: 실적_양호_주주환원정책_양호_JB금융지주_유안타증권_표지_25.02.07.pdf
+2025-03-27 18:56:41,397 - ragflow_analyzer - INFO - 회사명: JB금융지주
+2025-03-27 18:56:41,397 - ragflow_analyzer - INFO - 작성기관: 유안타증권
+2025-03-27 18:56:41,397 - ragflow_analyzer - INFO - 작성일: 2025-02-07
+2025-03-27 18:56:41,445 - ragflow_analyzer - INFO - === 문서 청크 수: 9 ===
+2025-03-27 18:56:41,456 - ragflow_analyzer - INFO - === 챗봇 응답 처리 시작 ===
+2025-03-27 18:56:55,347 - ragflow_analyzer - INFO - 
+=== 응답 처리 완료 ===
+2025-03-27 18:56:55,347 - ragflow_analyzer - INFO - === 원본 응답 ===
+2025-03-27 18:56:55,347 - ragflow_analyzer - INFO - 1. investment_point - key_points: "JB금융지주는 4분기 순이익이 컨센서스를 상회하며 주주환원정책이 양호하다."
+2. investment_point - reasonings: "4분기 지배주주 순이익은 1,144억원으로 컨센서스를 18.2% 상회하였다."
+3. analysis - figure - fact: "2024년 총주주환원율은 45%로 제시되었다."
+4. analysis - figure - opinion: "2025년에 추가적으로 발표할 자사주 매입액은 900억원 수준으로 전망된다."
+5. analysis - nonfigure - fact: "비이자이익이 전년 동기 대비 흑자전환하였다."
+6. analysis - nonfigure - opinion: "투자 심리는 개선될 것으로 판단된다."
+7. analysis - material - fact: "2025년 총주주환원율을 45%로 제시했다."
+8. analysis - material - opinion: "자사주 매입 발표로 인해 COE 역시 개선될 것으로 판단된다."
+9. analysis - public - fact: "현재 주가는 19,600원이며 목표 주가는 25,000원이다."
+10. analysis - public - opinion: "목표 주가를 상향하는 이유는 투자 심리의 개선 때문이다."
+11. sector_indicators: "NIM은 2.60%, ROE는 12%로 예상된다."
+
+12. events - category: 자본/재무
+13. events - type: 발표
+14. events - timestamp: 2025년
+15. events - description: "JB금융지주는 자사주 매입 및 배당 가능 이익 문제를 해결하기 위해 추가적인 자사주 매입을 발표했다."
+16. events - source_quote: "2025년 총주주환원율을 45%로 제시했다."
+17. events - market_impact - short_term: 중간
+18. events - market_impact - mid_term: 높음
+19. events - market_impact - long_term: 높음
+20. events - market_impact - severity: 높음
+21. events - derived_effects - direct: "매출 증가 및 영업이익 개선"
+22. events - derived_effects - indirect: "시장 점유율 증가 및 브랜드 가치 상승"
+23. events - derived_effects - risks: "자산 매입에 따른 유동성 위험"
+24. events - related_events - preceding: 없음
+25. events - related_events – subsequent : “추가적인 자사주 매입 발표 (발생 확률 높음)”
+26. events – related_events – related_impact : “다른 금융 기업에도 긍정적 영향”
+2025-03-27 18:56:55,348 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:56:55,353 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (1, 30)
+2025-03-27 18:56:55,353 - ragflow_analyzer - INFO - === 결과 저장 완료 ===
+2025-03-27 18:56:55,353 - root - INFO - 보고서 분석 완료: 실적_양호_주주환원정책_양호_JB금융지주_유안타증권_표지_25.02.07.pdf
+2025-03-27 18:56:55,354 - root - INFO - 텍스트 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.txt'이 저장되었습니다.
+2025-03-27 18:56:55,369 - root - INFO - Excel 파일 '/home/core16/codespace/ragflow_core16/noodle/output/reports/result.xlsx'이 저장되었습니다. DataFrame 크기: (26, 30)
+2025-03-27 18:56:55,369 - root - INFO - 총 26개의 분석 결과가 저장되었습니다.
+2025-03-27 18:56:55,370 - root - INFO - 모든 보고서 분석 완료
