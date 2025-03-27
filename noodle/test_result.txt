@@ -1,0 +1,25 @@
+=== 분석 결과 ===
+회사명: HD현대중공업
+작성기관: 미래에셋증권
+작성일: 2025-02-18
+파일명: 기대할_것이_많다_HD현대중공업_미래에셋증권_표지_25.02.18.pdf
+
+분석 내용:
+investment_point - key_points: investment_point - key_points: HD현대중공업의 특수선사업부 매출 목표치가 2025년 2.5조원, 2035년 3.5조원으로 설정됨.
+investment_point - reasonings: investment_point - reasonings: 2025년 특수선 수주 목표치는 16억불로, 이는 전년 대비 +58.6% 증가한 수치임.
+analysis - figure - fact: analysis - figure - fact: 영업이익(24F)은 705억원으로, Consensus 영업이익(24F)은 675억원임.
+analysis - figure - opinion: analysis - figure - opinion: EPS 성장률(24F)은 2,417.7%로 예상되며, 이는 MKT EPS 성장률(24F)인 67.9%를 크게 초과함.
+analysis - nonfigure - fact: analysis - nonfigure - fact: 미해군 사업에 대한 참여가 증가하고 있으며, 경쟁력이 충분하다고 판단됨.
+analysis - nonfigure - opinion: analysis - nonfigure - opinion: 향후 미해군 MRO 및 신조 사업에서의 수주 가능성이 높아질 것으로 기대됨.
+analysis - material - fact: analysis - material - fact: 미해군 MSC 7함대 MRO 입찰에 참여할 예정이며, 연간 오버홀 계약 기준으로 4~5척을 예상함.
+analysis - material - opinion: analysis - material - opinion: 향후 미해군 소형수상전투함 및 군수지원함 분야에서 강점을 보일 것으로 전망됨.
+analysis - public - fact: analysis - public - fact: 현재 주가는 334,500원이며 목표주가는 상향 조정된 470,000원임.
+analysis - public - opinion: analysis - public - opinion: 목표주가 상승 여력은 약 40.5%로 평가됨.
+sector_indicators: sector_indicators: P/E (24F)는 41.1배이며 KOSPI는 현재 2,591.05임.
+events - category: 기업 실적 발표
+events - type: 재무 성과
+events - description: HD현대중공업의 연간 영업이익 및 매출액 전망 발표
+events - probability: 0.8
+
+==================================================
+
